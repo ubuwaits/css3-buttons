@@ -1,20 +1,20 @@
 button {
-	background: #bfbfbf;	
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#bfbfbf));
-	background: -moz-linear-gradient(0% 100% 90deg,#BFBFBF, #EEEEEE);
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-moz-box-shadow: inset 0px 0px 5px #efefef;
-	-webkit-box-shadow: inset 0px 0px 5px #efefef;
-	color: #333;
-	font-size: 12px;
-	font-weight: bold;
-	line-height: 15px;	    
-	margin: 0;
-	padding: 6px 10px;
-	text-shadow: 1px 1px 0px #eee;
-	width: 105px;
+  background: #bfbfbf;	
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#bfbfbf));
+  background: -moz-linear-gradient(0% 100% 90deg,#BFBFBF, #EEEEEE);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -moz-box-shadow: inset 0px 0px 5px #efefef;
+  -webkit-box-shadow: inset 0px 0px 5px #efefef;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;	    
+  margin: 0;
+  padding: 6px 10px;
+  text-shadow: 1px 1px 0px #eee;
+  width: 105px;
 }
 
 button:hover {
