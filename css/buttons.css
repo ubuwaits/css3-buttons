@@ -1,0 +1,56 @@
+#clean-gray button,
+#clean-gray input[type="submit"],
+#clean-gray p.button {
+  background: #bfbfbf;	
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#bfbfbf));
+  background: -moz-linear-gradient(0% 100% 90deg,#BFBFBF, #EEEEEE);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -moz-box-shadow: inset 0px 0px 5px #efefef;
+  -webkit-box-shadow: inset 0px 0px 5px #efefef;
+  color: #333;
+  font-family: "lucida grande";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;	    
+  margin: 0;
+  padding: 6px 10px;
+  text-align: center;
+  text-shadow: 1px 1px 0px #eee;
+  width: 150px;
+}
+
+#slick-black button,
+#slick-black input[type="submit"],
+#slick-black p.button {
+  background: #1a1a1a;	
+  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#1a1a1a), to(#111111));
+  background: -moz-linear-gradient(0% 50% 90deg,#111111, #1A1A1A);
+  border: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  color: #fff;
+  font-family: "helvetica neue";
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  margin: 0;
+  padding: 6px 10px;
+  text-align: center;
+  width: 150px;
+}
+
+#container p.button {
+  display: inline;
+  margin: 0 76px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 148px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+p.button:hover {
+  cursor: pointer;
+}

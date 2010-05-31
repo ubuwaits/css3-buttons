@@ -1,22 +1,70 @@
-button {
-  background: #bfbfbf;	
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#bfbfbf));
-  background: -moz-linear-gradient(0% 100% 90deg,#BFBFBF, #EEEEEE);
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -moz-box-shadow: inset 0px 0px 5px #efefef;
-  -webkit-box-shadow: inset 0px 0px 5px #efefef;
-  color: #333;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 15px;	    
-  margin: 0;
-  padding: 6px 10px;
-  text-shadow: 1px 1px 0px #eee;
-  width: 105px;
+#container {
+  margin: 50px auto;
+  width: 940px;
 }
 
-button:hover {
-  cursor: pointer;
+.row {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 24px 0;
+  padding: 0 0 24px 0;
+}
+
+.row:first-child {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.button {
+  float: left;
+  text-align: center;
+  width: 300px;
+}
+
+.input {
+  float: left;
+  margin: 0 20px;
+  text-align: center;  
+  width: 300px;
+}
+
+.generic {
+  float: left;
+  text-align: center;  
+  width: 300px;
+}
+
+/* Clear Floated Elements
+------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
 }
