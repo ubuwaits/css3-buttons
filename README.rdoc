@@ -1,0 +1,3 @@
+= CSS3 Buttons
+
+This is a collection of buttons (rendered in three ways: the button tag, the input tag, and the p tag) that shows what is possible using CSS3. Almost all of these buttons look best in Chrome (followed by Safari, then Firefox, with all other browsers being irrelevant for the purposes of this exercise).
