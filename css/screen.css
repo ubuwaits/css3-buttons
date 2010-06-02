@@ -1,3 +1,6 @@
+/* This stylesheet contains only what is necessary to display the example 
+   buttons. See buttons.css for the relevant CSS.
+******************************************************************************/   
 #container {
   margin: 50px auto;
   width: 940px;
@@ -7,6 +10,11 @@
   border-bottom: 1px solid #eee;
   margin: 0 0 24px 0;
   padding: 0 0 24px 0;
+}
+
+.row h2 {
+  font-family: "helvetica neue", arial, sans-serif;
+  font-size: 12px;
 }
 
 .row:first-child {

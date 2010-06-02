@@ -2,11 +2,12 @@
 #clean-gray input[type="submit"],
 #clean-gray p.button {
   background: #bfbfbf;	
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#bfbfbf));
-  background: -moz-linear-gradient(0% 100% 90deg,#BFBFBF, #EEEEEE);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#afafaf));
+  background: -moz-linear-gradient(0% 100% 90deg,#afafaf, #EEEEEE);
   border: 1px solid #ccc;
   border-radius: 3px;
   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;  
   -moz-box-shadow: inset 0px 0px 5px #efefef;
   -webkit-box-shadow: inset 0px 0px 5px #efefef;
   color: #333;
@@ -30,6 +31,7 @@
   border: 0;
   border-radius: 3px;
   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
   color: #fff;
   font-family: "helvetica neue";
   font-size: 12px;
@@ -41,6 +43,35 @@
   width: 150px;
 }
 
+#hoptoad button,
+#hoptoad input[type="submit"],
+#hoptoad p.button {
+  background: #ffdd10;	
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffdd10), to(#ee790f));
+  background: -moz-linear-gradient(0% 100% 90deg,#ee790f, #ffdd10);
+  border: 1px solid #330c00;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.5), inset 0px 0px 0px 1px #fff;
+  -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.5), inset 0px 0px 0px 1px #fff;
+  color: #291a13;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 15px;
+  margin: 0;
+  padding: 16px 20px 20px 20px;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);  
+  width: 200px;
+}
+
+#container #hoptoad p.button {
+  margin: 0 50px;
+  width: 200px;
+}  
+  
 #container p.button {
   display: inline;
   margin: 0 76px;
