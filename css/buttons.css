@@ -14,7 +14,7 @@
   font-family: "lucida grande";
   font-size: 12px;
   font-weight: bold;
-  line-height: 15px;	    
+  line-height: 1;	    
   margin: 0;
   padding: 6px 10px;
   text-align: center;
@@ -25,18 +25,18 @@
 #slick-black button,
 #slick-black input[type="submit"],
 #slick-black p.button {
-  background: #1a1a1a;	
-  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#1a1a1a), to(#111111));
-  background: -moz-linear-gradient(0% 50% 90deg,#111111, #1A1A1A);
+  background: #252525;	
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #494949), color-stop(0.5, #353535), color-stop(0.5, #252525), color-stop(1, #272727));
+  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #272727 0%, #252525 50%, #353535 50%, #494949 100%);
   border: 0;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  color: #fff;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  color: #fcfcfc;
   font-family: "helvetica neue";
   font-size: 12px;
   font-weight: bold;
-  line-height: 15px;
+  line-height: 1;
   margin: 0;
   padding: 6px 10px;
   text-align: center;
@@ -59,7 +59,7 @@
   font-family: "helvetica neue";
   font-size: 20px;
   font-weight: bold;
-  line-height: 15px;
+  line-height: 1;
   margin: 0;
   padding: 16px 20px 20px 20px;
   text-align: center;
@@ -70,6 +70,31 @@
 #container #hoptoad p.button {
   margin: 0 50px;
   width: 200px;
+}
+
+#thoughtbot button,
+#thoughtbot input[type="submit"],
+#thoughtbot p.button {
+  background: #c63929;	
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
+  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
+  border: 1px solid #951100;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
+  color: #fff;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin: 0;
+  padding: 14px 20px 16px 20px;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(90, 7, 0, 1);  
+  width: 150px;
 }
 
 #container p.button {
@@ -84,4 +109,9 @@ button:hover,
 input[type="submit"]:hover,
 p.button:hover {
   cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  border:0;
 }
