@@ -1,9 +1,32 @@
-/* This stylesheet contains only what is necessary to display the example 
+/* This stylesheet contains only what is necessary to display the example
    buttons. See buttons.css for the relevant CSS.
-******************************************************************************/   
+******************************************************************************/
+body {
+  font-family: "helvetica neue", arial, sans-serif;
+}
+
+a {
+  color: #d00;
+}
+
 #container {
   margin: 50px auto;
   width: 940px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 12px 80px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0 0 12px 80px;
+}
+
+p.where {
+  margin: 0 0 36px 80px;
 }
 
 .row {
@@ -13,7 +36,6 @@
 }
 
 .row h2 {
-  font-family: "helvetica neue", arial, sans-serif;
   font-size: 12px;
 }
 
@@ -31,13 +53,13 @@
 .input {
   float: left;
   margin: 0 20px;
-  text-align: center;  
+  text-align: center;
   width: 300px;
 }
 
 .generic {
   float: left;
-  text-align: center;  
+  text-align: center;
   width: 300px;
 }
 

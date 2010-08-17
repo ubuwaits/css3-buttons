@@ -1,20 +1,20 @@
 #clean-gray button,
 #clean-gray input[type="submit"],
 #clean-gray p.button {
-  background: #bfbfbf;	
+  background: #bfbfbf;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#a9a9a9));
   background: -moz-linear-gradient(0% 100% 90deg,#a9a9a9, #e5e5e5);
   border: 1px solid #ccc;
   border-radius: 3px;
   -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;  
+  -webkit-border-radius: 3px;
   -moz-box-shadow: inset 0px 0px 5px #efefef;
   -webkit-box-shadow: inset 0px 0px 5px #efefef;
   color: #333;
   font-family: "lucida grande";
   font-size: 12px;
   font-weight: bold;
-  line-height: 1;	    
+  line-height: 1;
   margin: 0;
   padding: 8px 12px;
   text-align: center;
@@ -25,28 +25,39 @@
 #slick-black button,
 #slick-black input[type="submit"],
 #slick-black p.button {
-  background: #252525;	
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #494949), color-stop(0.5, #353535), color-stop(0.5, #252525), color-stop(1, #272727));
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #272727 0%, #252525 50%, #353535 50%, #494949 100%);
+  background: #111;
+  background: -webkit-gradient(linear, 0 0, 0 100%,
+              color-stop(0, rgba(50, 50, 50, 0.9)),
+              color-stop(0.5, rgba(30, 30, 30, 0.9)),
+              color-stop(0.5, rgba(20, 20, 20, 0.9)),
+              color-stop(1, rgba(0, 0, 0, 0.9)));
+  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
+              rgba(0, 0, 0, 0.9) 0%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(30, 30, 30, 0.9) 50%,
+              rgba(50, 50, 50, 0.9) 100%);
   border: 0;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  color: #fcfcfc;
-  font-family: "helvetica neue";
-  font-size: 12px;
-  font-weight: bold;
+  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  color: #eee;
+  font-family: baskerville, "baskerville old face", georgia, "times new roman", serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
   line-height: 1;
   margin: 0;
-  padding: 8px 12px;
-  text-align: center;
+  padding: 10px 12px;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
   width: 150px;
 }
 
 #hoptoad button,
 #hoptoad input[type="submit"],
 #hoptoad p.button {
-  background: #ffdd10;	
+  background: #ffdd10;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffdd10), to(#ee790f));
   background: -moz-linear-gradient(0% 100% 90deg,#ee790f, #ffdd10);
   border: 1px solid #330c00;
@@ -63,14 +74,14 @@
   margin: 0;
   padding: 14px 20px 18px 20px;
   text-align: center;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);  
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
   width: 150px;
 }
 
 #thoughtbot button,
 #thoughtbot input[type="submit"],
 #thoughtbot p.button {
-  background: #c63929;	
+  background: #c63929;
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
   border: 1px solid #951100;
@@ -88,14 +99,14 @@
   margin: 0;
   padding: 12px 20px 14px 20px;
   text-align: center;
-  text-shadow: 1px 1px 0px rgba(90, 7, 0, 1);  
+  text-shadow: 1px 1px 0px rgba(90, 7, 0, 1);
   width: 150px;
 }
 
 #dribbble button,
 #dribbble input[type="submit"],
 #dribbble p.button {
-  background: #F26895;	
+  background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
   border: 0;
