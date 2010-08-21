@@ -43,38 +43,15 @@
   -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
   -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
   color: #eee;
-  font-family: baskerville, "baskerville old face", georgia, "times new roman", serif;
-  font-size: 18px;
-  font-weight: normal;
+  font-family: "helvetica neue", baskerville, "baskerville old face", georgia, "times new roman", serif;
+  font-size: 11px;
+  font-weight: bold;
   letter-spacing: 1px;
   line-height: 1;
   margin: 0;
   padding: 10px 12px;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
-  width: 150px;
-}
-
-#hoptoad button,
-#hoptoad input[type="submit"],
-#hoptoad p.button {
-  background: #ffdd10;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffdd10), to(#ee790f));
-  background: -moz-linear-gradient(0% 100% 90deg,#ee790f, #ffdd10);
-  border: 1px solid #330c00;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.5), inset 0px 0px 0px 1px #fff;
-  -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255, 0.5), inset 0px 0px 0px 1px #fff;
-  color: #291a13;
-  font-family: "helvetica neue";
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-  margin: 0;
-  padding: 14px 20px 18px 20px;
-  text-align: center;
-  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
   width: 150px;
 }
 
@@ -91,7 +68,7 @@
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
   color: #fff;
-  font-family: "helvetica neue";
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -114,7 +91,7 @@
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   color: #fcfcfc;
-  font-family: "helvetica neue";
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
   line-height: 1;
@@ -124,7 +101,41 @@
   width: 150px;
 }
 
+#fat-blue button,
+#fat-blue input[type="submit"],
+#fat-blue p.button {
+  background: #3b5998;
+  border: 1px solid #19253f;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: inset 0 1px 3px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
+  -webkit-box-shadow: inset 0 1px 3px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
+  color: #090e18;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  padding: 10px 12px 12px 12px;
+  text-align: center;
+  text-shadow: 0px 1px 0px #5783e0;
+  width: 150px;
+}
+
+#fat-blue button:hover,
+#fat-blue input[type="submit"]:hover,
+#fat-blue p.button:hover {
+  margin-top: 5px;
+  -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
+}
+
 /* general styles */
+body {
+  text-rendering: optimizeLegibility;  
+}
+
 #container p.button {
   display: inline;
   margin: 0 76px;
