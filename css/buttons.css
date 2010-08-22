@@ -1,6 +1,5 @@
 #clean-gray button,
-#clean-gray input[type="submit"],
-#clean-gray p.button {
+#clean-gray input[type="submit"] {
   background: #bfbfbf;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#a9a9a9));
   background: -moz-linear-gradient(0% 100% 90deg,#a9a9a9, #e5e5e5);
@@ -23,8 +22,7 @@
 }
 
 #slick-black button,
-#slick-black input[type="submit"],
-#slick-black p.button {
+#slick-black input[type="submit"] {
   background: #111;
   background: -webkit-gradient(linear, 0 0, 0 100%,
               color-stop(0, rgba(50, 50, 50, 0.9)),
@@ -56,8 +54,7 @@
 }
 
 #thoughtbot button,
-#thoughtbot input[type="submit"],
-#thoughtbot p.button {
+#thoughtbot input[type="submit"] {
   background: #c63929;
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
@@ -81,8 +78,7 @@
 }
 
 #dribbble button,
-#dribbble input[type="submit"],
-#dribbble p.button {
+#dribbble input[type="submit"] {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
@@ -102,8 +98,7 @@
 }
 
 #fat-blue button,
-#fat-blue input[type="submit"],
-#fat-blue p.button {
+#fat-blue input[type="submit"] {
   background: #3b5998;
   border: 1px solid #19253f;
   border-radius: 5px;
@@ -116,7 +111,8 @@
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
-  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 10px 12px 12px 12px;
   text-align: center;
   text-shadow: 0px 1px 0px #5783e0;
@@ -124,11 +120,34 @@
 }
 
 #fat-blue button:hover,
-#fat-blue input[type="submit"]:hover,
-#fat-blue p.button:hover {
-  margin-top: 5px;
+#fat-blue input[type="submit"]:hover {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+#player button,
+#player input[type="submit"] {
+  background: #dbdedf;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
+              -webkit-gradient(radial, 25 15, 25, 25 15, 22, from(rgba(250, 250, 250, 0.8)), to(rgba(250, 250, 250, 0.3)));
+  border: 0;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: inset 0 -1px 1px 0px rgba(25, 25, 25, 0.2);
+  color: #111;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 1;
+  margin: 0;
+  padding: 10px 12px 12px 12px;
+  text-align: center;
+  text-shadow: 0px 1px 0px #fff;
+  width: 50px;
 }
 
 /* general styles */
@@ -136,17 +155,8 @@ body {
   text-rendering: optimizeLegibility;  
 }
 
-#container p.button {
-  display: inline;
-  margin: 0 76px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 148px;
-}
-
 button:hover,
-input[type="submit"]:hover,
-p.button:hover {
+input[type="submit"]:hover {
   cursor: pointer;
 }
 

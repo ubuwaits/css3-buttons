@@ -2,7 +2,7 @@
    buttons. See buttons.css for the relevant CSS.
 ******************************************************************************/
 body {
-  font-family: "helvetica neue", arial, sans-serif;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
 a {
@@ -10,17 +10,17 @@ a {
 }
 
 #container {
-  margin: 50px auto;
-  width: 940px;
+  margin: 50px auto 200px auto;
+  width: 640px;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 32px;
   margin: 0 0 12px 80px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 140%;
   margin: 0 0 12px 80px;
 }
@@ -31,8 +31,8 @@ p.where {
 
 .row {
   border-bottom: 1px solid #eee;
-  margin: 0 0 24px 0;
-  padding: 0 0 24px 0;
+  margin: 0 0 28px 0;
+  padding: 0 0 28px 0;
 }
 
 .row h2 {
@@ -53,12 +53,6 @@ p.where {
 .input {
   float: left;
   margin: 0 20px;
-  text-align: center;
-  width: 300px;
-}
-
-.generic {
-  float: left;
   text-align: center;
   width: 300px;
 }
