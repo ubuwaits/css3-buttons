@@ -129,14 +129,13 @@
 
 #player button,
 #player input[type="submit"] {
-  background: #dbdedf;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
               -webkit-gradient(radial, 25 15, 45, 25 15, 20, from(rgba(50, 50, 50, 0.1)), to(rgba(255, 255, 255, 1)));
   border: 0;
   border-radius: 25px;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
-  -webkit-box-shadow: inset 0px 0px 3px #eee, 0 1px 5px 0px #444;
+  -webkit-box-shadow: inset 0px 0px 3px #eee, 0 0 2px 0 #111, 0 1px 2px 0 #eee;
   color: #111;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 24px;
