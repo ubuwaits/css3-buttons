@@ -41,15 +41,14 @@
   -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
   -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
   color: #eee;
-  font-family: "helvetica neue", baskerville, "baskerville old face", georgia, "times new roman", serif;
-  font-size: 11px;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1;
   margin: 0;
   padding: 10px 12px;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
-  text-transform: uppercase;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
@@ -73,7 +72,7 @@
   margin: 0;
   padding: 12px 20px 14px 20px;
   text-align: center;
-  text-shadow: 1px 1px 0px rgba(90, 7, 0, 1);
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
@@ -94,6 +93,7 @@
   margin: 0;
   padding: 10px 12px 12px 12px;
   text-align: center;
+  text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);  
   width: 150px;
 }
 
@@ -106,7 +106,7 @@
   -webkit-border-radius: 5px;
   -moz-box-shadow: inset 0 1px 3px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
   -webkit-box-shadow: inset 0 1px 3px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
-  color: #090e18;
+  color: #fff;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -115,7 +115,7 @@
   margin-top: 10px;
   padding: 10px 12px 12px 12px;
   text-align: center;
-  text-shadow: 0px 1px 0px #5783e0;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
