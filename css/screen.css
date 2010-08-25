@@ -69,7 +69,8 @@ body {
 }
 
 div.container {
-  margin: 10px;
+  margin: 40px auto;
+  width: 600px;
 }
 
 a {
@@ -85,7 +86,6 @@ p {
   font-size: 13px;
   line-height: 140%;
   margin: 0 0 12px 0;
-  width: 600px;
 }
 
 p.where {
@@ -105,8 +105,10 @@ ul.column li {
 
 .block {
 	background: #f1f1f1;
-  border: 10px solid #fff;
-  border-width: 10px 10px 0 0;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+  margin: 10px 10px 0 0;
   display: block;
   height: 150px;
 	text-align: center;

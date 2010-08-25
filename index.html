@@ -4,31 +4,8 @@
   <meta charset="utf-8" />
   <title>CSS3 buttons</title>
   <meta name="description" content="A collection of CSS3 buttons by Chad Mazzola" />
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen" />
-  <script type="text/javascript">
-  $(document).ready(function(){
-    // make sure ul container takes up the full space
-    $("ul.column").css({ 'width' : "100%"});
-
-    // get width of column when page loads
-  	var column_min_width = $("ul.column li").width();
-
-  	function smartColumns() {
-  		var container_width = $("ul.column").width();
-  		var number_of_columns = Math.floor(container_width / column_min_width);
-  		var column_width = Math.floor(container_width / number_of_columns);
-  		$("ul.column li").css({ 'width' : column_width});
-  	}
-
-  	smartColumns();
-
-  	$(window).resize(function () {
-  		smartColumns();
-  	});
-  });
-  </script>
 </head>
 
 <body>
