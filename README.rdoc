@@ -2,6 +2,4 @@
 
 This is a collection of buttons that show what is possible using CSS3. Almost all of these buttons look best in Chrome (followed by Safari, then Firefox, with all other browsers being irrelevant for the purposes of this exercise).
 
-Currently the buttons look like this:
-
-http://dl.dropbox.com/u/2483533/buttons/buttons.png
+View the buttons here: <a href="http://ubuwaits.github.com/css3-buttons/">http://ubuwaits.github.com/css3-buttons/<a>
