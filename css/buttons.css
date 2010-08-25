@@ -1,5 +1,19 @@
-#clean-gray button,
-#clean-gray input[type="submit"] {
+/* general styles */
+body {
+  text-rendering: optimizeLegibility;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  border:0;
+}
+
+#clean-gray button {
   background: #bfbfbf;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#bbb));
   background: -moz-linear-gradient(0% 100% 90deg,#bbb, #e5e5e5);
@@ -14,25 +28,23 @@
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  margin: 0;
   padding: 8px 12px;
   text-align: center;
   text-shadow: 0 1px 0px #eee;
   width: 150px;
 }
 
-#slick-black button,
-#slick-black input[type="submit"] {
+#slick-black button {
   background: #111;
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
               rgba(0, 0, 0, 1) 0%,
-              rgba(30, 30, 30, 1) 50%,
               rgba(40, 40, 40, 1) 50%,
-              rgba(50, 50, 50, 1) 100%);
+              rgba(50, 50, 50, 1) 50%,
+              rgba(60, 60, 60, 1) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
-              color-stop(0, rgba(50, 50, 50, 1)),
+              color-stop(0, rgba(60, 60, 60, 1)),
+              color-stop(0.5, rgba(50, 50, 50, 1)),
               color-stop(0.5, rgba(40, 40, 40, 1)),
-              color-stop(0.5, rgba(30, 30, 30, 1)),
               color-stop(1, rgba(0, 0, 0, 1)));
   border: 0;
   border-radius: 2px;
@@ -45,14 +57,12 @@
   font-size: 13px;
   font-weight: bold;
   line-height: 1;
-  margin: 0;
   padding: 11px 13px;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
-#clean-green button,
-#clean-green input[type="submit"] {
+#clean-green button {
   background: #bfbfbf;
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
   background: -moz-linear-gradient(0% 100% 90deg,#bbb, #e5e5e5);
@@ -68,15 +78,13 @@
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  margin: 0;
   padding: 8px 12px;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
   width: 150px;
 }
 
-#dribbble button,
-#dribbble input[type="submit"] {
+#dribbble button {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
@@ -89,15 +97,13 @@
   font-size: 15px;
   font-weight: bold;
   line-height: 1;
-  margin: 0;
   padding: 10px 12px 12px 12px;
   text-align: center;
-  text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);  
+  text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
   width: 150px;
 }
 
-#thoughtbot button,
-#thoughtbot input[type="submit"] {
+#thoughtbot button {
   background: #c63929;
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
@@ -113,15 +119,13 @@
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1;
-  margin: 0;
   padding: 12px 20px 14px 20px;
   text-align: center;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
-#fat-blue button,
-#fat-blue input[type="submit"] {
+#fat-blue button {
   background: #4162a8;
   border: 1px solid #19253f;
   border-radius: 5px;
@@ -135,23 +139,20 @@
   font-weight: bold;
   line-height: 1;
   margin-bottom: 10px;
-  margin-top: 10px;
   padding: 10px 12px 12px 12px;
   text-align: center;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 }
 
-#fat-blue button:hover,
-#fat-blue input[type="submit"]:hover {
+#fat-blue button:hover {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   margin-bottom: 6px;
-  margin-top: 14px;
+  margin-top: 54px;
 }
 
-#player button,
-#player input[type="submit"] {
+#player button {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
               -webkit-gradient(radial, 25 15, 45, 25 15, 20, from(rgba(50, 50, 50, 0.1)), to(rgba(255, 255, 255, 1)));
   border: 0;
@@ -165,24 +166,8 @@
   font-weight: bold;
   height: 50px;
   line-height: 1;
-  margin: 0;
   padding: 10px 12px 12px 12px;
   text-align: center;
   text-shadow: 0px 1px 0px #fff;
   width: 50px;
-}
-
-/* general styles */
-body {
-  text-rendering: optimizeLegibility;  
-}
-
-button:hover,
-input[type="submit"]:hover {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner {
-  border:0;
 }
