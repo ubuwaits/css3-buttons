@@ -64,8 +64,8 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #656565;
-  color: #f5f5f5;
+  background: #757575;
+  color: #222;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
@@ -75,11 +75,11 @@ div.container {
 }
 
 a {
-  color: #e5e5e5;
+  color: #000;
+  text-decoration: none;
 }
 
 h1 {
-  color: #f5f5f5;
   font-size: 36px;
   font-weight: lighter;
   margin: 24px 0 12px 0;
@@ -109,9 +109,9 @@ ul.column li {
 
 .block {
 	background: #fff;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
   margin: 10px 10px 0 0;
   display: block;
   height: 150px;
