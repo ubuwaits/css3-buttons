@@ -65,28 +65,28 @@ table {
 ------------------------------------------------------------------------------*/
 body {
   background: #757575;
-  color: #222;
+  color: #353535;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
 div.container {
   margin: 40px auto;
-  width: 600px;
+  width: 675px;
 }
 
 a {
-  color: #000;
+  color: #151515;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: lighter;
   margin: 24px 0 12px 0;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 140%;
   margin: 0 0 12px 0;
 }
@@ -104,7 +104,7 @@ ul.column {
 ul.column li {
 	display: inline;
 	float: left;
-	width: 200px;
+	width: 225px;
 }
 
 .block {
@@ -119,23 +119,23 @@ ul.column li {
 }
 
 button {
-  margin-top: 55px;
+  margin-top: 60px;
 }
 
 #slick-black button {
-  margin-top: 51px;
+  margin-top: 56px;
 }
 
 #clean-green button {
-  margin-top: 57px;
+  margin-top: 62px;
 }
 
 #dribbble button {
-  margin-top: 55px;
+  margin-top: 60px;
 }
 
 #thoughtbot button {
-  margin-top: 51px;
+  margin-top: 54px;
 }
 
 #fat-blue button {
@@ -143,7 +143,7 @@ button {
 }
 
 #player button {
-  margin-top: 53px;
+  margin-top: 58px;
 }
 
 /* Clear Floated Elements
