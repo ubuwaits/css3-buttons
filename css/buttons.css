@@ -36,29 +36,29 @@ input[type="submit"]::-moz-focus-inner {
 
 #slick-black button {
   background: #111;
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
-              rgba(0, 0, 0, 1) 0%,
-              rgba(40, 40, 40, 1) 50%,
-              rgba(50, 50, 50, 1) 50%,
-              rgba(60, 60, 60, 1) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
-              color-stop(0, rgba(60, 60, 60, 1)),
-              color-stop(0.5, rgba(50, 50, 50, 1)),
-              color-stop(0.5, rgba(40, 40, 40, 1)),
-              color-stop(1, rgba(0, 0, 0, 1)));
+              color-stop(0, rgba(50, 50, 50, 0.9)),
+              color-stop(0.5, rgba(30, 30, 30, 0.9)),
+              color-stop(0.5, rgba(20, 20, 20, 0.9)),
+              color-stop(1, rgba(0, 0, 0, 0.9)));
+  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
+              rgba(0, 0, 0, 0.9) 0%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(30, 30, 30, 0.9) 50%,
+              rgba(50, 50, 50, 0.9) 100%);
   border: 0;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
   -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
   -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
-  color: #eee;
-  font-family: "lucida grande";
-  font-size: 13px;
-  font-weight: bold;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
   line-height: 1;
-  padding: 11px 13px;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
+  padding: 12px 14px;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
   width: 150px;
 }
 
@@ -74,7 +74,7 @@ input[type="submit"]::-moz-focus-inner {
   -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
   -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
   color: #fff;
-  font-family: "lucida grande";
+  font-family: "lucida grande", sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
