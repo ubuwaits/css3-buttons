@@ -64,7 +64,8 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #656565;
+  color: #f5f5f5;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
@@ -74,16 +75,18 @@ div.container {
 }
 
 a {
-  color: #d00;
+  color: #e5e5e5;
 }
 
 h1 {
-  font-size: 32px;
+  color: #f5f5f5;
+  font-size: 36px;
+  font-weight: lighter;
   margin: 24px 0 12px 0;
 }
 
 p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 140%;
   margin: 0 0 12px 0;
 }
@@ -94,6 +97,7 @@ p.where {
 
 ul.column {
   list-style: none;
+  margin: 24px 0;
   width: 100%;
 }
 
@@ -104,7 +108,7 @@ ul.column li {
 }
 
 .block {
-	background: #f1f1f1;
+	background: #fff;
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
