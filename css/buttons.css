@@ -69,14 +69,14 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 16px;
   -moz-border-radius: 16px;
   -webkit-border-radius: 16px;
-  color: #2a3342;
+  color: #262626;
   font-family: "lucida grande", sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
   padding: 8px 12px 9px 12px;
   text-align: center;
-  text-shadow: 0 1px 0 #93b3e9;
+  text-shadow: 0 1px 0 #8aa7da;
   width: 150px;
 }
 
