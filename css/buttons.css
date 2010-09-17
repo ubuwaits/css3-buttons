@@ -63,22 +63,20 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 #blue-pill button {
-  background: #9eb0d1;
-  background: -moz-linear-gradient(0% 100% 90deg,#6d85ad, #9eb0d1);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9eb0d1), to(#6d85ad));
-  border: 1px solid #8ea0c3;
-  border-width: 1px 1px 0 1px;
+  background: #64799e;
+  background: -moz-linear-gradient(0% 100% 90deg,#64799e, #a5b8da);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
   border-radius: 16px;
   -moz-border-radius: 16px;
   -webkit-border-radius: 16px;
-  color: #fff;
+  color: #2a3342;
   font-family: "lucida grande", sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
   padding: 8px 12px 9px 12px;
   text-align: center;
-  text-shadow: 0 1px 0 #6e788c;
+  text-shadow: 0 1px 0 #93b3e9;
   width: 150px;
 }
 
