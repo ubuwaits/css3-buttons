@@ -62,6 +62,26 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
+#blue-pill button {
+  background: #9eb0d1;
+  background: -moz-linear-gradient(0% 100% 90deg,#6d85ad, #9eb0d1);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9eb0d1), to(#6d85ad));
+  border: 1px solid #8ea0c3;
+  border-width: 1px 1px 0 1px;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  color: #fff;
+  font-family: "lucida grande", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 12px 9px 12px;
+  text-align: center;
+  text-shadow: 0 1px 0 #6e788c;
+  width: 150px;
+}
+
 #clean-green button {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
@@ -153,6 +173,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 #player button {
+  background: -moz-linear-gradient(0% 100% 90deg,rgba(166, 172, 176, 0.5), rgba(242, 242, 242, 0.5));
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
               -webkit-gradient(radial, 25 15, 45, 25 15, 20, from(rgba(50, 50, 50, 0.1)), to(rgba(255, 255, 255, 1)));
   border: 0;
