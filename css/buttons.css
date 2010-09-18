@@ -66,9 +66,10 @@ input[type="submit"]::-moz-focus-inner {
   background: #64799e;
   background: -moz-linear-gradient(0% 100% 90deg,#64799e, #a5b8da);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
-  border-radius: 16px;
-  -moz-border-radius: 16px;
-  -webkit-border-radius: 16px;
+  border: 1px solid #7089b3;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
   color: #363636;
   font-family: "lucida grande", sans-serif;
   font-size: 12px;
