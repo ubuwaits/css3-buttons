@@ -97,7 +97,7 @@ input[type="submit"]::-moz-focus-inner {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  padding: 8px 12px;
+  padding: 8px 12px 9px 12px;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
   width: 150px;
