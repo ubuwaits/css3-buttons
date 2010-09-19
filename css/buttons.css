@@ -113,7 +113,8 @@ input[type="submit"]::-moz-focus-inner {
   border-radius: 18px;
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
-  color: #363636;
+  -webkit-box-shadow: inset 0 1px 0 0 #b4c9ed;
+  color: #2b3951;
   font-family: "lucida grande", sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -190,8 +191,8 @@ input[type="submit"]::-moz-focus-inner {
 #fat-blue button:hover {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
-  margin-bottom: 6px;
-  margin-top: 54px;
+  margin-bottom: 8px;
+  margin-top: 56px;
 }
 
 #player button {

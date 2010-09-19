@@ -130,6 +130,14 @@ button {
   margin-top: 62px;
 }
 
+#pale-blue button {
+  margin-top: 64px;
+}
+
+#blue-pill button {
+  margin-top: 62px;
+}
+
 #dribbble button {
   margin-top: 60px;
 }
@@ -139,11 +147,11 @@ button {
 }
 
 #fat-blue button {
-  margin-top: 50px;
+  margin-top: 54px;
 }
 
 #player button {
-  margin-top: 58px;
+  margin-top: 56px;
 }
 
 /* Clear Floated Elements
