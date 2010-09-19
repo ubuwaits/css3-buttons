@@ -115,13 +115,14 @@ input[type="submit"]::-moz-focus-inner {
   -webkit-border-radius: 18px;
   -webkit-box-shadow: inset 0 1px 0 0 #b4c9ed;
   color: #2b3951;
-  font-family: "lucida grande", sans-serif;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
   padding: 8px 0 9px 0;
   text-align: center;
-  text-shadow: 0 1px 0 #8aa7da;
+  text-shadow: 0 1px 0 #99b9f2;
+  text-transform: uppercase;
   width: 150px;
 }
 
