@@ -122,7 +122,7 @@ input[type="submit"]::-moz-focus-inner {
 #dribbble button {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
+  background: -moz-linear-gradient(0% 100% 90deg, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
   border: 0;
   border-radius: 6px;
   -moz-border-radius: 6px;
@@ -136,6 +136,18 @@ input[type="submit"]::-moz-focus-inner {
   text-align: center;
   text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
   width: 150px;
+}
+
+#dribbble button:hover {
+  background: #e2558b;
+  background: -moz-linear-gradient(0% 100% 90deg, #df3e7b 0%, #df3e7b 50%, #e2558b 50%, #e2558b 100%);
+  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e2558b), to(#df3e7b));
+}
+
+#dribbble button:active {
+  background: #c94477;
+  background: -moz-linear-gradient(0% 100% 90deg, #c22b65 0%, #c22b65 50%, #c94477 50%, #c94477 100%);
+  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c94477), to(#c22b65));
 }
 
 #slick-black button {
