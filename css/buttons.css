@@ -24,41 +24,13 @@ input[type="submit"]::-moz-focus-inner {
   -moz-box-shadow: inset 0px 1px 3px #f5f5f5;
   -webkit-box-shadow: inset 0px 1px 3px #f5f5f5;
   color: #333;
-  font-family: "lucida grande";
+  font-family: "lucida grande", sans-serif;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
   padding: 8px 0;
   text-align: center;
   text-shadow: 0 1px 0px #eee;
-  width: 150px;
-}
-
-#slick-black button {
-  background: #111;
-  background: -webkit-gradient(linear, 0 0, 0 100%,
-              color-stop(0, rgba(50, 50, 50, 0.9)),
-              color-stop(0.5, rgba(30, 30, 30, 0.9)),
-              color-stop(0.5, rgba(20, 20, 20, 0.9)),
-              color-stop(1, rgba(0, 0, 0, 0.9)));
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
-              rgba(0, 0, 0, 0.9) 0%,
-              rgba(20, 20, 20, 0.9) 50%,
-              rgba(30, 30, 30, 0.9) 50%,
-              rgba(50, 50, 50, 0.9) 100%);
-  border: 0;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
-  -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
-  color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 22px;
-  font-weight: lighter;
-  line-height: 1;
-  padding: 12px 0;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
   width: 150px;
 }
 
@@ -97,7 +69,7 @@ input[type="submit"]::-moz-focus-inner {
   color: #2a65a6;
   font-family: "lucida grande", sans-serif;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   padding: 5px 0 6px 0;
   text-align: center;
@@ -143,6 +115,34 @@ input[type="submit"]::-moz-focus-inner {
   padding: 10px 0 12px 0;
   text-align: center;
   text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
+  width: 150px;
+}
+
+#slick-black button {
+  background: #111;
+  background: -webkit-gradient(linear, 0 0, 0 100%,
+              color-stop(0, rgba(50, 50, 50, 0.9)),
+              color-stop(0.5, rgba(30, 30, 30, 0.9)),
+              color-stop(0.5, rgba(20, 20, 20, 0.9)),
+              color-stop(1, rgba(0, 0, 0, 0.9)));
+  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
+              rgba(0, 0, 0, 0.9) 0%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(30, 30, 30, 0.9) 50%,
+              rgba(50, 50, 50, 0.9) 100%);
+  border: 0;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 1;
+  padding: 12px 0;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
   width: 150px;
 }
 
