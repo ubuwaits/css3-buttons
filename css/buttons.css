@@ -36,7 +36,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* inspired by okcupid.com */
 #clean-green button {
-  background: #bfbfbf;
+  background: #7fbf4d;
   background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
   border: 1px solid #63a62f;
