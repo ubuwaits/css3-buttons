@@ -91,6 +91,18 @@ p {
   margin: 0 0 12px 0;
 }
 
+p.credit {
+  border-top: 1px solid #666;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 36px 0 12px 0;
+  padding: 6px 0 0 0;
+}
+
+p.credit a {
+  text-decoration: underline;
+}
+
 p.where {
   margin: 0 0 12px 0;
 }
