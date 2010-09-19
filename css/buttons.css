@@ -62,25 +62,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#blue-pill button {
-  background: #64799e;
-  background: -moz-linear-gradient(0% 100% 90deg,#64799e, #a5b8da);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
-  border: 1px solid #7089b3;
-  border-radius: 18px;
-  -moz-border-radius: 18px;
-  -webkit-border-radius: 18px;
-  color: #363636;
-  font-family: "lucida grande", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 8px 12px 9px 12px;
-  text-align: center;
-  text-shadow: 0 1px 0 #8aa7da;
-  width: 150px;
-}
-
+/* inspired by okcupid.com */
 #clean-green button {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
@@ -103,6 +85,46 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
+/* inspired by okcupid.com */
+#pale-blue button {
+  background: #e7eef5;
+  border: 1px solid #becfe3;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-box-shadow: inset 0 1px 0 0 #fff;
+  -webkit-box-shadow: inset 0 1px 0 0 #fff;
+  color: #2a65a6;
+  font-family: "lucida grande", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 5px 12px 6px 12px;
+  text-align: center;
+  width: 150px;
+}
+
+/* inspired by iTunes */
+#blue-pill button {
+  background: #64799e;
+  background: -moz-linear-gradient(0% 100% 90deg,#64799e, #a5b8da);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
+  border: 1px solid #7089b3;
+  border-radius: 18px;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  color: #363636;
+  font-family: "lucida grande", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 12px 9px 12px;
+  text-align: center;
+  text-shadow: 0 1px 0 #8aa7da;
+  width: 150px;
+}
+
+/* inspired by dribbble.com */
 #dribbble button {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
@@ -122,6 +144,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
+/* inspired by thoughtbot.com */
 #thoughtbot button {
   background: #c63929;
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
