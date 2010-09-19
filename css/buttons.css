@@ -92,6 +92,10 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
+#pale-blue button:hover {
+  color: #6f8cc0;
+}
+
 /* inspired by iTunes */
 #blue-pill button {
   background: #64799e;
