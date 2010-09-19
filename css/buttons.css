@@ -48,13 +48,29 @@ input[type="submit"]::-moz-focus-inner {
   -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
   color: #fff;
   font-family: "lucida grande", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   line-height: 1;
   padding: 7px 0 8px 0;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
   width: 150px;
+}
+
+#clean-green button:hover {
+  background: #5a962c;
+  background: -moz-linear-gradient(0% 100% 90deg,#5a962c, #72ac45);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#72ac45), to(#5a962c));
+}
+
+#clean-green button:active {
+  background: #7fbf4d;
+  background: -moz-linear-gradient(0% 100% 90deg,#7fbf4d, #63a62f);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#63a62f), to(#7fbf4d));
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border-width: 0 1px 1px 1px;
+  padding: 8px 0 7px 0;
 }
 
 /* inspired by okcupid.com */
