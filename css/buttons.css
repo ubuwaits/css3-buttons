@@ -235,10 +235,10 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 #fat-blue button:active {
+  background: #395591;
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
-  margin-bottom: 8px;
-  margin-top: 56px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 2px 0px #1f3053, 0 4px 3px 0px #111;
+  margin-top: 58px;
 }
 
 /* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
