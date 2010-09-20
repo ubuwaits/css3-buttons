@@ -96,6 +96,8 @@ input[type="submit"]::-moz-focus-inner {
   color: #6f8cc0;
 }
 
+/* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
+   http://code.google.com/p/chromium/issues/detail?id=29427 */
 /* inspired by iTunes */
 #blue-pill button {
   background: #64799e;
@@ -239,6 +241,8 @@ input[type="submit"]::-moz-focus-inner {
   margin-top: 56px;
 }
 
+/* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
+   http://code.google.com/p/chromium/issues/detail?id=29427 */
 #player button {
   background: -moz-linear-gradient(0% 100% 90deg,rgba(166, 172, 176, 0.5), rgba(242, 242, 242, 0.5));
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
