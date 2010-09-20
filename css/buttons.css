@@ -228,6 +228,11 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 #fat-blue button:hover {
+  -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
+  -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
+}
+
+#fat-blue button:active {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 3px 0px #1f3053, 0 3px 4px 1px #111;
   margin-bottom: 8px;
