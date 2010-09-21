@@ -117,7 +117,7 @@ input[type="submit"]::-moz-focus-inner {
 
 #pale-blue button:active {
   border: 1px solid #8c98a7;
-  color: #2963a3;
+  color: #6f8cc0;
 }
 
 /* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
