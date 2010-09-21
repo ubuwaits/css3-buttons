@@ -15,8 +15,8 @@ input[type="submit"]::-moz-focus-inner {
 
 #clean-gray button {
   background: #bfbfbf;
+  background: -moz-linear-gradient(0% 100% 90deg, #bbb, #e5e5e5);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#bbb));
-  background: -moz-linear-gradient(0% 100% 90deg,#bbb, #e5e5e5);
   border: 1px solid #ccc;
   border-radius: 3px;
   -moz-border-radius: 3px;
@@ -33,6 +33,21 @@ input[type="submit"]::-moz-focus-inner {
   text-align: center;
   text-shadow: 0 1px 0px #eee;
   width: 150px;
+}
+
+#clean-gray button:hover {
+  background: #cfcfcf;
+  background: -moz-linear-gradient(0% 100% 90deg, #aaa, #d5d5d5);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d5d5d5), to(#aaa));
+  box-shadow: inset 0px 1px 3px #e5e5e5;
+  -moz-box-shadow: inset 0px 1px 3px #e5e5e5;
+  -webkit-box-shadow: inset 0px 1px 3px #e5e5e5;
+}
+
+#clean-gray button:active {
+  background: #bfbfbf;
+  background: -moz-linear-gradient(0% 100% 90deg, #e5e5e5, #bbb);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), to(#e5e5e5));
 }
 
 /* inspired by okcupid.com */
