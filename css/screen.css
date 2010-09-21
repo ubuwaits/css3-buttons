@@ -134,36 +134,40 @@ button {
   margin-top: 60px;
 }
 
-#slick-black button {
+button.slick-black {
   margin-top: 56px;
 }
 
-#clean-green button {
+button.clean-green {
   margin-top: 62px;
 }
 
-#pale-blue button {
+button.pale-blue {
   margin-top: 64px;
 }
 
-#blue-pill button {
+button.blue-pill {
   margin-top: 62px;
 }
 
-#dribbble button {
+button.dribbble {
   margin-top: 60px;
 }
 
-#thoughtbot button {
+button.thoughtbot {
   margin-top: 54px;
 }
 
-#fat-blue button {
+button.fat-blue {
   margin-top: 54px;
 }
 
-#player button {
+button.player {
   margin-top: 56px;
+}
+
+button.fat-letters {
+  margin-top: 20px;
 }
 
 /* Clear Floated Elements

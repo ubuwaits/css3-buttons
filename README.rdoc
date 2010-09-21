@@ -1,6 +1,6 @@
 = CSS3 Buttons
 
-This is a collection of buttons that show what is possible using CSS3. Almost all of these buttons look best in Chrome (followed by Safari, then Firefox, with all other browsers being irrelevant for the purposes of this exercise).
+This is a collection of buttons that show what is possible using CSS3. Almost all of these buttons look best in Chrome and Safari on OSX. They look almost as good in Firefox, with all other browsers receiving a less-styled button.
 
 If you use any of these buttons in the wild, drop me a note and let me know.
 

@@ -13,7 +13,7 @@ input[type="submit"]::-moz-focus-inner {
   border:0;
 }
 
-#clean-gray button {
+button.clean-gray {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg, #bbb, #e5e5e5);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e5e5e5), to(#bbb));
@@ -35,7 +35,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#clean-gray button:hover {
+button.clean-gray:hover {
   background: #cfcfcf;
   background: -moz-linear-gradient(0% 100% 90deg, #aaa, #d5d5d5);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d5d5d5), to(#aaa));
@@ -44,14 +44,14 @@ input[type="submit"]::-moz-focus-inner {
   -webkit-box-shadow: inset 0px 1px 3px #e5e5e5;
 }
 
-#clean-gray button:active {
+button.clean-gray:active {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg, #e5e5e5, #bbb);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), to(#e5e5e5));
 }
 
 /* inspired by okcupid.com */
-#clean-green button {
+button.clean-green {
   background: #7fbf4d;
   background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
@@ -74,13 +74,13 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#clean-green button:hover {
+button.clean-green:hover {
   background: #5a962c;
   background: -moz-linear-gradient(0% 100% 90deg,#5a962c, #72ac45);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#72ac45), to(#5a962c));
 }
 
-#clean-green button:active {
+button.clean-green:active {
   background: #7fbf4d;
   background: -moz-linear-gradient(0% 100% 90deg,#7fbf4d, #63a62f);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#63a62f), to(#7fbf4d));
@@ -92,7 +92,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 /* inspired by okcupid.com */
-#pale-blue button {
+button.pale-blue {
   background: #e7eef5;
   border: 1px solid #becfe3;
   border-radius: 16px;
@@ -111,11 +111,11 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#pale-blue button:hover {
+button.pale-blue:hover {
   color: #6f8cc0;
 }
 
-#pale-blue button:active {
+button.pale-blue:active {
   border: 1px solid #8c98a7;
   color: #6f8cc0;
 }
@@ -123,7 +123,7 @@ input[type="submit"]::-moz-focus-inner {
 /* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
    http://code.google.com/p/chromium/issues/detail?id=29427 */
 /* inspired by iTunes */
-#blue-pill button {
+button.blue-pill {
   background: #64799e;
   background: -moz-linear-gradient(0% 100% 90deg, #64799e, #a5b8da);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
@@ -146,13 +146,13 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#blue-pill button:hover {
+button.blue-pill:hover {
   background: #576989;
   background: -moz-linear-gradient(0% 100% 90deg, #576989, #9eb0d1);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9eb0d1), to(#576989));
 }
 
-#blue-pill button:active {
+button.blue-pill:active {
   background: #a5b8da;
   background: -moz-linear-gradient(0% 100% 90deg, #a5b8da, #64799e);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#64799e), to(#a5b8da));
@@ -162,7 +162,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 /* inspired by dribbble.com */
-#dribbble button {
+button.dribbble {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   background: -moz-linear-gradient(0% 100% 90deg, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
@@ -181,19 +181,19 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#dribbble button:hover {
+button.dribbble:hover {
   background: #e2558b;
   background: -moz-linear-gradient(0% 100% 90deg, #df3e7b 0%, #df3e7b 50%, #e2558b 50%, #e2558b 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e2558b), to(#df3e7b));
 }
 
-#dribbble button:active {
+button.dribbble:active {
   background: #c94477;
   background: -moz-linear-gradient(0% 100% 90deg, #c22b65 0%, #c22b65 50%, #c94477 50%, #c94477 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c94477), to(#c22b65));
 }
 
-#slick-black button {
+button.slick-black {
   background: #111;
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
               rgba(0, 0, 0, 0.9) 0%,
@@ -222,7 +222,7 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#slick-black button:hover {
+button.slick-black:hover {
   background: #222;
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
               rgba(20, 20, 20, 0.9) 0%,
@@ -236,7 +236,7 @@ input[type="submit"]::-moz-focus-inner {
               color-stop(1, rgba(20, 20, 20, 0.9)));
 }
 
-#slick-black button:active {
+button.slick-black:active {
   background: #000;
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
               rgba(0, 0, 0, 0.9) 0%,
@@ -252,7 +252,7 @@ input[type="submit"]::-moz-focus-inner {
 
 
 /* inspired by thoughtbot.com */
-#thoughtbot button {
+button.thoughtbot {
   background: #c63929;
   background: -moz-linear-gradient(0% 100% 90deg, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
@@ -275,20 +275,20 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#thoughtbot button:hover {
+button.thoughtbot:hover {
   background: #cb0500;
   background: -moz-linear-gradient(0% 100% 90deg, #a20601 0%, #cb0500 50%, #db504d 50%, #f37873 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
 }
 
-#thoughtbot button:active {
+button.thoughtbot:active {
   background: #b30300;
   background: -moz-linear-gradient(0% 100% 90deg, #700d00 0%, #9c1500 50%, #ad3224 50%, #d43c28 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
 }
 
 
-#fat-blue button {
+button.fat-blue {
   background: #4162a8;
   border: 1px solid #19253f;
   border-radius: 5px;
@@ -309,13 +309,13 @@ input[type="submit"]::-moz-focus-inner {
   width: 150px;
 }
 
-#fat-blue button:hover {
+button.fat-blue:hover {
   box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
   -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
   -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
 }
 
-#fat-blue button:active {
+button.fat-blue:active {
   background: #395591;
   box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
@@ -325,7 +325,7 @@ input[type="submit"]::-moz-focus-inner {
 
 /* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
    http://code.google.com/p/chromium/issues/detail?id=29427 */
-#player button {
+button.player {
   background: -moz-linear-gradient(0% 100% 90deg,rgba(166, 172, 176, 0.5), rgba(242, 242, 242, 0.5));
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(242, 242, 242, 0.5)), to(rgba(166, 172, 176, 0.5))),
               -webkit-gradient(radial, 25 15, 45, 25 15, 20, from(rgba(50, 50, 50, 0.1)), to(rgba(255, 255, 255, 1)));
