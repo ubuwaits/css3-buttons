@@ -13,6 +13,42 @@ input[type="submit"]::-moz-focus-inner {
   border:0;
 }
 
+button.minimal {
+  background: #e3e3e3;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 0 9px;
+  text-align: center;
+  text-shadow: 0 1px 0px #fff;
+  width: 150px;
+}
+
+button.minimal:hover {
+  background: #d9d9d9;
+  box-shadow: inset 0 0 1px 1px #eaeaea;
+  -moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+  -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+  color: #222;
+}
+
+button.minimal:active {
+  background: #d0d0d0;
+  box-shadow: inset 0 0 1px 1px #e3e3e3;
+  -moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
+  -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+  color: #000;
+}
+
 button.clean-gray {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg, #bbb, #e5e5e5);
