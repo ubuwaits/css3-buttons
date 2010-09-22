@@ -3,13 +3,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-button:hover,
-input[type="submit"]:hover {
+button:hover {
   cursor: pointer;
 }
 
-button::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner {
   border:0;
 }
 
