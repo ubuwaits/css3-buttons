@@ -260,9 +260,9 @@ button.thoughtbot {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
-  -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
-  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 1px 1px 3px #333;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333;
+  -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333;
   color: #fff;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 20px;
