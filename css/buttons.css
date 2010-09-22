@@ -13,6 +13,8 @@ input[type="submit"]::-moz-focus-inner {
   border:0;
 }
 
+/* minimal
+*******************************************************************************/
 button.minimal {
   background: #e3e3e3;
   border: 1px solid #ccc;
@@ -49,6 +51,8 @@ button.minimal:active {
   color: #000;
 }
 
+/* clean gray
+*******************************************************************************/
 button.clean-gray {
   background: #bfbfbf;
   background: -moz-linear-gradient(0% 100% 90deg, #bbb, #e5e5e5);
@@ -86,7 +90,8 @@ button.clean-gray:active {
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), to(#e5e5e5));
 }
 
-/* inspired by okcupid.com */
+/* clean green (inspired by okcupid.com)
+*******************************************************************************/
 button.clean-green {
   background: #7fbf4d;
   background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
@@ -127,7 +132,8 @@ button.clean-green:active {
   padding: 8px 0 7px 0;
 }
 
-/* inspired by okcupid.com */
+/* pale blue (inspired by okcupid.com)
+*******************************************************************************/
 button.pale-blue {
   background: #e7eef5;
   border: 1px solid #becfe3;
@@ -156,9 +162,10 @@ button.pale-blue:active {
   color: #6f8cc0;
 }
 
-/* As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
-   http://code.google.com/p/chromium/issues/detail?id=29427 */
-/* inspired by iTunes */
+/* blue pill (inspired by iTunes)
+   As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
+   http://code.google.com/p/chromium/issues/detail?id=29427
+*******************************************************************************/
 button.blue-pill {
   background: #64799e;
   background: -moz-linear-gradient(0% 100% 90deg, #64799e, #a5b8da);
@@ -197,7 +204,8 @@ button.blue-pill:active {
   -webkit-box-shadow: none;
 }
 
-/* inspired by dribbble.com */
+/* dribbble (inspired by dribbble.com)
+*******************************************************************************/
 button.dribbble {
   background: #F26895;
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
@@ -229,6 +237,8 @@ button.dribbble:active {
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c94477), to(#c22b65));
 }
 
+/* slick black
+*******************************************************************************/
 button.slick-black {
   background: #111;
   background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
@@ -286,8 +296,8 @@ button.slick-black:active {
               color-stop(1, rgba(0, 0, 0, 0.9)));
 }
 
-
-/* inspired by thoughtbot.com */
+/* thoughtbot (inspired by thoughtbot.com)
+*******************************************************************************/
 button.thoughtbot {
   background: #c63929;
   background: -moz-linear-gradient(0% 100% 90deg, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
@@ -326,7 +336,8 @@ button.thoughtbot:active {
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
 }
 
-
+/* fat blue
+*******************************************************************************/
 button.fat-blue {
   background: #4162a8;
   border: 1px solid #19253f;
