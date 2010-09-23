@@ -1,67 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <title>CSS3 buttons</title>
-  <meta name="description" content="A collection of CSS3 buttons by Chad Mazzola" />
-  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen" />
+  <meta name="description" content="A collection of CSS3 buttons by Chad Mazzola">
+  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen">
 </head>
 
 <body>
 
   <div class="container">
     <h1>CSS3 buttons</h1>
-    <p>This is a collection of buttons that show what is possible using CSS3. They look best in WebKit browsers on OSX and appear quite plain in IE.</p>
+    <p>This is a collection of buttons that show what is possible using CSS3 and other advanced techniques. These buttons look best in Chrome and Safari (especially on OSX). They look almost as good in Firefox, with all other browsers falling back to a less-styled button. If you use these buttons in the wild, <a href="mailto:ubuwaits@hellohappy.org">drop me a note</a> and let me know.</p>
+
     <p class="where">The latest code is located at: <a href="http://github.com/ubuwaits/css3-buttons">http://github.com/ubuwaits/css3-buttons</a></p>
 
-    <ul class="column clearfix">
-      <li>
-        <div class="block">
-          <button class="minimal">Quiet</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="clean-gray">Redact</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="clean-green">Forgive</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="pale-blue">Compliment</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="blue-pill">Clarify</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="dribbble">Flirt</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-           <button class="slick-black">Ask</button>
-         </div>
-       </li>
-      <li>
-        <div class="block">
-          <button class="thoughtbot">Launch</button>
-        </div>
-      </li>
-      <li>
-        <div class="block">
-          <button class="fat-blue">Punch</button>
-        </div>
-      </li>
-    </ul>
+    <div class="button-collection clearfix">
+      <div class="button-info">
+        <h2>Classic buttons</h2>
+        <p>This is the original set of buttons, showing a variety of CSS3 styles in different combinations. Study the code, then adjust to fit the context of where it's used.</p>
+      </div>
+
+      <ul class="column clearfix">
+        <li>
+          <div class="block">
+            <button class="minimal">Quiet</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="clean-gray">Redact</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="clean-green">Forgive</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="pale-blue">Compliment</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="blue-pill">Clarify</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="dribbble">Flirt</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+             <button class="slick-black">Ask</button>
+           </div>
+         </li>
+        <li>
+          <div class="block">
+            <button class="thoughtbot">Launch</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="fat-blue">Punch</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="button-collection clearfix">
+      <div class="button-info">
+        <h2>Extended with Iconic</h2>
+        <p>This set extends the functionality of the classic icon set using icons embedded via @font-face. I am using P.J. Onori's free icon set, <a href="http://somerandomdude.com/projects/iconic/">Iconic</a>. You can read more about this technique on <a href="http://somerandomdude.com/articles/design-technology/font-embedding-icons/">his blog</a>.</p>
+      </div>
+
+      <ul class="column clearfix">
+        <li>
+          <div class="block">
+            <button class="minimal check-alt">Approve</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="dribbble heart">Flirt</button>
+          </div>
+        </li>
+        <li>
+          <div class="block">
+            <button class="blue-pill chat">Clarify</button>
+          </div>
+        </li>
+      </ul>
+    </div>
 
     <p class="credit">Maintained by <a href="http://hellohappy.org/">Chad Mazzola</a> with inspiration from across the internet.</p>
   </div>

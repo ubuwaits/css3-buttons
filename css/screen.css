@@ -61,6 +61,16 @@ table {
 	border-spacing: 0;
 }
 
+/* Import iconic
+------------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'IconicStroke';
+	src: url('../font/iconic_stroke.eot');
+	src: local('☺'), url('../font/iconic_stroke.ttf') format('truetype'), url('../font/iconic_stroke.svg#iconic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
@@ -71,7 +81,7 @@ body {
 
 div.container {
   margin: 40px auto;
-  width: 675px;
+  width: 960px;
 }
 
 a {
@@ -80,6 +90,7 @@ a {
 }
 
 h1 {
+  color: #333;
   font-size: 38px;
   font-weight: lighter;
   margin: 24px 0 12px 0;
@@ -107,10 +118,33 @@ p.where {
   margin: 0 0 12px 0;
 }
 
+.button-collection {
+  border-top: 3px solid #666;
+  margin: 24px 0 36px 0;
+  padding: 6px 0 12px 0;
+}
+
+.button-info {
+  float: left;
+  margin: 0 40px 0 0;
+  width: 245px;
+}
+
+.button-info h2 {
+  color: #222;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 10px 0 6px 0;
+}
+
+.button-info p {
+  font-size: 14px;
+}
+
 ul.column {
+  float: left;
   list-style: none;
-  margin: 24px 0;
-  width: 100%;
+  width: 675px;
 }
 
 ul.column li {
