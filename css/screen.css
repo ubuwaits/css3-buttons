@@ -164,6 +164,10 @@ ul.column li {
 	text-align: center;
 }
 
+.block.dark {
+  background: #1c1c1c;
+}
+
 button {
   margin-top: 60px;
 }

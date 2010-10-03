@@ -11,6 +11,44 @@ button::-moz-focus-inner {
   border:0;
 }
 
+/* ios blue (inspired by Apple iOS buttons)
+*******************************************************************************/
+button.ios-blue {
+  background: #2260dd;
+  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #2260dd 50%, #376fe0 50%, #779be9 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(0.5, #376fe0), color-stop(0.5, #2260dd), color-stop(1, #2463de));
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: inset 0px 1px 2px 0 rgba(20, 26, 38, 0.8), inset 0 -2px 3px rgba(22, 59, 135, 0.6);
+  -moz-box-shadow: inset 0px 1px 2px 0 rgba(20, 26, 38, 0.8), inset 0 -2px 3px rgba(22, 59, 135, 0.6);
+  -webkit-box-shadow: inset 0px 1px 2px 0 rgba(20, 26, 38, 0.8), inset 0 -2px 3px rgba(22, 59, 135, 0.6);
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #2c4d93;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-blue:hover {
+  background: #1d55c4;
+  background: -moz-linear-gradient(0% 100% 90deg, #1d55c4 0%, #1d55c4 50%, #3263c7 50%, #6989cf 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
+}
+
+button.ios-blue:active {
+  background: #1a4aab;
+  background: -moz-linear-gradient(0% 100% 90deg, #1b4bab 0%, #1a4aab 50%, #2b57ad 50%, #5c78b5 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
+  -webkit-box-shadow: inset 0px 1px 3px 0 rgba(20, 26, 38, 0.8), inset 0 -2px 3px rgba(22, 59, 135, 0.8);
+  color: #ddd;
+}
+
 /* minimal
 *******************************************************************************/
 button.minimal {
@@ -206,8 +244,8 @@ button.blue-pill:active {
 *******************************************************************************/
 button.dribbble {
   background: #F26895;
-  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   background: -moz-linear-gradient(0% 100% 90deg, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
+  background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   border: 0;
   border-radius: 6px;
   -moz-border-radius: 6px;
