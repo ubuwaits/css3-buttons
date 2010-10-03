@@ -2,7 +2,7 @@
 
 === View the buttons here: http://ubuwaits.github.com/css3-buttons
 
-This is a collection of buttons that show what is possible using CSS3 and other advanced techniques. These buttons look best in Chrome and Safari (especially on OSX). They look almost as good in Firefox, with all other browsers falling back to a less-styled button.
+This is a collection of buttons that show what is possible using CSS3 and other advanced techniques, while maintaining the simplest possible markup. These buttons look best in Chrome and Safari (especially on OSX). They look almost as good in Firefox, with all other browsers falling back to a less-styled button.
 
 Some of these buttons are using the Iconic icon set (http://somerandomdude.com/projects/iconic) by P.J. Onori, via the method described here: http://somerandomdude.com/articles/design-technology/font-embedding-icons
 
