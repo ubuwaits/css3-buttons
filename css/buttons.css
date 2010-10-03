@@ -85,6 +85,40 @@ button.ios-purple:active {
   -webkit-background-clip: padding-box;
 }
 
+/* ios yellow (inspired by Apple iOS buttons)
+*******************************************************************************/
+button.ios-yellow {
+  background: #debe21;
+  background: -moz-linear-gradient(0% 100% 90deg, #dea024 0%, #debe21 50%, #e0c438 50%, #e8d776 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e8d776), color-stop(0.5, #e0c438), color-stop(0.5, #debe21), color-stop(1, #dea024));
+  border: 3px solid #0d111a;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #262106;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-yellow:hover {
+  background: #c4a91d;
+  background: -moz-linear-gradient(0% 100% 90deg, #c48d1f 0%, #c4a91d 50%, #c7ae32 50%, #cfbf69 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #cfbf69), color-stop(0.5, #c7ae32), color-stop(0.5, #c4a91d), color-stop(1, #c48d1f));
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-yellow:active {
+  background: #ab931a;
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(229, 229, 0, 0.4), rgba(255, 255, 0, 0.4)),-moz-linear-gradient(0% 100% 90deg, #ab7b1b 0%, #ab931a 50%, #ad982b 50%, #b5a85c 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(255, 255, 0, 0.4)), to(rgba(229, 229, 0, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #b5a85c), color-stop(0.5, #ad982b), color-stop(0.5, #ab931a), color-stop(1, #ab7b1b));
+  -webkit-background-clip: padding-box;
+}
 
 /* minimal
 *******************************************************************************/
