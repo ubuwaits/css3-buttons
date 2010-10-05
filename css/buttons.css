@@ -64,6 +64,34 @@ button.webkit-check:active {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
 }
 
+/* webkit seal
+*******************************************************************************/
+button.webkit-seal {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(1, #6224de));
+  color: #fff;
+  height: 90px;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #473569;
+  width: 150px;
+  -webkit-mask-image: url("../images/seal.png");
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-seal:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
+}
+
+button.webkit-seal:active {
+  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
+}
+
 /* ios blue (inspired by Apple iOS buttons)
 *******************************************************************************/
 button.ios-blue {
