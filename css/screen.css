@@ -172,8 +172,12 @@ button {
   margin-top: 60px;
 }
 
-button.webkit-clip {
+button.webkit-badge {
   margin-top: 32px;
+}
+
+button.webkit-check {
+  margin-top: 30px;
 }
 
 button.slick-black {
