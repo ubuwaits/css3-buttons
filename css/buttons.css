@@ -11,6 +11,34 @@ button::-moz-focus-inner {
   border:0;
 }
 
+/* webkit clip
+*******************************************************************************/
+button.webkit-clip {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
+  color: #fff;
+  font-family: "hoefler text", georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  height: 88px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #3d0700;
+  width: 150px;
+  -webkit-mask-image: url("../images/badge.png");
+  -webkit-mask-position: left top;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-clip:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+}
+
+button.webkit-clip:active {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+}
+
 /* ios blue (inspired by Apple iOS buttons)
 *******************************************************************************/
 button.ios-blue {

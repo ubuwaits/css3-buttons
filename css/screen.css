@@ -172,6 +172,10 @@ button {
   margin-top: 60px;
 }
 
+button.webkit-clip {
+  margin-top: 32px;
+}
+
 button.slick-black {
   margin-top: 56px;
 }
