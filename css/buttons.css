@@ -577,7 +577,7 @@ button.check-alt:before {
   position: relative;
   left: -16px;
   line-height: 10px;
-	text-shadow: 0 1px 0px #fff;
+  text-shadow: 0 1px 0px #fff;
   top: 2px;
   visibility: hidden;
 }
@@ -605,7 +605,7 @@ button.heart:before {
   position: relative;
   left: -16px;
   line-height: 10px;
-	text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
+  text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
   top: 6px;
   visibility: hidden;
 }
@@ -633,7 +633,7 @@ button.chat:before {
   position: relative;
   left: -13px;
   line-height: 10px;
-	text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
+  text-shadow: 0px -1px 1px rgba(104, 45, 64, .7);
   top: 2px;
   visibility: hidden;
 }
