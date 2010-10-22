@@ -655,3 +655,19 @@ button.chat:hover:before {
 button.chat:active:before {
   text-shadow: 0px -1px 10px rgba(104, 45, 64, 1);
 }
+
+/* disabled button styles
+   works with this markup: <button disabled="disabled">Submit</button>
+*******************************************************************************/
+button[disabled],
+button[disabled]:hover,
+button[disabled]:active {
+  background: #999;
+  border: 0;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  color: #aaa;
+  cursor: not-allowed;
+  text-shadow: none;
+}
