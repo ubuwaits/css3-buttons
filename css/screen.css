@@ -63,7 +63,7 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #757575;
   color: #333;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
@@ -74,7 +74,7 @@ div.container {
 }
 
 a {
-  color: #000;
+  color: #151515;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ p.where {
 }
 
 .button-collection {
-  border-top: 3px solid #aaa;
+  border-top: 3px solid #666;
   margin: 24px 0 36px 0;
   padding: 6px 0 12px 0;
 }
@@ -143,7 +143,7 @@ ul.column li {
 }
 
 .block {
-  background: #1c1c1c;
+  background: #fff;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
