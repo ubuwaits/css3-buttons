@@ -63,8 +63,8 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #757575;
-  color: #353535;
+  background: #fff;
+  color: #333;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
 
@@ -74,7 +74,7 @@ div.container {
 }
 
 a {
-  color: #151515;
+  color: #000;
   text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ p.where {
 }
 
 .button-collection {
-  border-top: 3px solid #666;
+  border-top: 3px solid #aaa;
   margin: 24px 0 36px 0;
   padding: 6px 0 12px 0;
 }
@@ -143,7 +143,7 @@ ul.column li {
 }
 
 .block {
-  background: #fff;
+  background: #1c1c1c;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
