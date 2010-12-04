@@ -63,7 +63,7 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #757575;
+  background: #eee;
   color: #333;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
@@ -74,6 +74,7 @@ div.container {
 }
 
 a {
+  border-bottom: 1px solid #151515;
   color: #151515;
   text-decoration: none;
 }
@@ -81,26 +82,27 @@ a {
 h1 {
   color: #333;
   font-size: 38px;
-  font-weight: lighter;
+  font-weight: 300;
   margin: 24px 0 12px 0;
 }
 
 p {
   font-size: 16px;
+  font-weight: lighter;
   line-height: 140%;
   margin: 0 0 12px 0;
 }
 
+p.intro {
+  margin-right: 220px;
+}
+
 p.credit {
-  border-top: 1px solid #666;
+  border-top: 1px solid #ccc;
   font-size: 14px;
   line-height: 140%;
   margin: 36px 0 12px 0;
   padding: 6px 0 0 0;
-}
-
-p.credit a {
-  text-decoration: underline;
 }
 
 p.where {
@@ -108,9 +110,9 @@ p.where {
 }
 
 .button-collection {
-  border-top: 3px solid #666;
+  border-top: 2px solid #ccc;
   margin: 24px 0 36px 0;
-  padding: 6px 0 12px 0;
+  padding: 4px 0 12px 0;
 }
 
 .button-info {
@@ -147,7 +149,7 @@ ul.column li {
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  margin: 10px 10px 0 0;
+  margin: 10px 0 0 10px;
   display: block;
   height: 150px;
   text-align: center;
@@ -207,17 +209,6 @@ button.fat-letters {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
-/* http://sonspring.com/journal/clearing-floats */
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
 .clearfix:after {
   clear: both;
   content: ' ';
@@ -227,16 +218,4 @@ button.fat-letters {
   visibility: hidden;
   width: 0;
   height: 0;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
-* html .clearfix {
-  height: 1%;
-}
-
-.clearfix {
-  display: block;
 }
