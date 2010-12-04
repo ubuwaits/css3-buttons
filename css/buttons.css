@@ -21,196 +21,6 @@ button::-moz-focus-inner {
   border:0;
 }
 
-/* webkit badge
-*******************************************************************************/
-button.webkit-badge {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
-  color: #fff;
-  font-family: "hoefler text", georgia, serif;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: lighter;
-  height: 88px;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #3d0700;
-  width: 150px;
-  -webkit-mask-image: url("../images/badge.png");
-  -webkit-mask-position: left top;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-badge:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
-}
-
-button.webkit-badge:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
-}
-
-/* webkit seal
-*******************************************************************************/
-button.webkit-seal {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(1, #6224de));
-  color: #fff;
-  height: 90px;
-  color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #473569;
-  width: 150px;
-  -webkit-mask-image: url("../images/seal.png");
-  -webkit-mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-seal:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
-}
-
-button.webkit-seal:active {
-  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
-}
-
-/* webkit badge
-*******************************************************************************/
-button.webkit-check {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(1, #2463de));
-  color: #fff;
-  height: 88px;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-indent: -9999px;
-  text-shadow: 0px -1px 1px #3d0700;
-  width: 150px;
-  -webkit-mask-image: url("../images/check.png");
-  -webkit-mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-check:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
-}
-
-button.webkit-check:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
-}
-
-/* ios blue (inspired by Apple iOS buttons)
-*******************************************************************************/
-button.ios-blue {
-  background: #2260dd;
-  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #2260dd 50%, #376fe0 50%, #779be9 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(0.5, #376fe0), color-stop(0.5, #2260dd), color-stop(1, #2463de));
-  border: 1px solid #0d111a;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #2c4d93;
-  width: 150px;
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-blue:hover {
-  background: #1d55c4;
-  background: -moz-linear-gradient(0% 100% 90deg, #1d55c4 0%, #1d55c4 50%, #3263c7 50%, #6989cf 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-blue:active {
-  background: #1a4aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #1b4bab 0%, #1a4aab 50%, #2b57ad 50%, #5c78b5 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
-  color: #ddd;
-  -webkit-background-clip: padding-box;
-}
-
-/* ios purple (inspired by Apple iOS buttons)
-*******************************************************************************/
-button.ios-purple {
-  background: #6021de;
-  background: -moz-linear-gradient(0% 100% 90deg, #6224de 0%, #6021de 50%, #7038e0 50%, #9e76e8 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(0.5, #7038e0), color-stop(0.5, #6021de), color-stop(1, #6224de));
-  border: 2px solid #0d111a;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #473569;
-  width: 150px;
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-purple:hover {
-  background: #551dc4;
-  background: -moz-linear-gradient(0% 100% 90deg, #561fc4 0%, #551dc4 50%, #6332c7 50%, #8d69cf 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(0.5, #6332c7), color-stop(0.5, #551dc4), color-stop(1, #561fc4));
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-purple:active {
-  background: #4a1aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #4b1bab 0%, #4a1aab 50%, #572bad 50%, #7b5cb5 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
-  color: #ddd;
-  -webkit-background-clip: padding-box;
-}
-
-/* ios yellow (inspired by Apple iOS buttons)
-*******************************************************************************/
-button.ios-yellow {
-  background: #debe21;
-  background: -moz-linear-gradient(0% 100% 90deg, #dea024 0%, #debe21 50%, #e0c438 50%, #e8d776 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e8d776), color-stop(0.5, #e0c438), color-stop(0.5, #debe21), color-stop(1, #dea024));
-  border: 3px solid #0d111a;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  color: #262106;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  width: 150px;
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-yellow:hover {
-  background: #c4a91d;
-  background: -moz-linear-gradient(0% 100% 90deg, #c48d1f 0%, #c4a91d 50%, #c7ae32 50%, #cfbf69 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #cfbf69), color-stop(0.5, #c7ae32), color-stop(0.5, #c4a91d), color-stop(1, #c48d1f));
-  -webkit-background-clip: padding-box;
-}
-
-button.ios-yellow:active {
-  background: #ab931a;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(229, 229, 0, 0.4), rgba(255, 255, 0, 0.4)),-moz-linear-gradient(0% 100% 90deg, #ab7b1b 0%, #ab931a 50%, #ad982b 50%, #b5a85c 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(255, 255, 0, 0.4)), to(rgba(229, 229, 0, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #b5a85c), color-stop(0.5, #ad982b), color-stop(0.5, #ab931a), color-stop(1, #ab7b1b));
-  -webkit-background-clip: padding-box;
-}
-
 /* minimal
 *******************************************************************************/
 button.minimal {
@@ -569,6 +379,216 @@ button.fat-blue:active {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
   margin-top: 58px;
+}
+
+/* webkit badge
+*******************************************************************************/
+button.webkit-badge {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
+  color: #fff;
+  font-family: "hoefler text", georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  height: 88px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #3d0700;
+  width: 150px;
+  -webkit-mask-image: url("../images/badge.png");
+  -webkit-mask-position: left top;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-badge:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+}
+
+button.webkit-badge:active {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+}
+
+/* webkit seal
+*******************************************************************************/
+button.webkit-seal {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(1, #6224de));
+  color: #fff;
+  height: 90px;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #473569;
+  width: 150px;
+  -webkit-mask-image: url("../images/seal.png");
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-seal:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
+}
+
+button.webkit-seal:active {
+  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
+}
+
+/* webkit badge
+*******************************************************************************/
+button.webkit-check {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(1, #2463de));
+  color: #fff;
+  height: 88px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-indent: -9999px;
+  text-shadow: 0px -1px 1px #3d0700;
+  width: 150px;
+  -webkit-mask-image: url("../images/check.png");
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-check:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
+}
+
+button.webkit-check:active {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
+}
+
+/* ios blue (inspired by Apple iOS buttons)
+*******************************************************************************/
+button.ios-blue {
+  background: #2260dd;
+  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #2260dd 50%, #376fe0 50%, #779be9 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(0.5, #376fe0), color-stop(0.5, #2260dd), color-stop(1, #2463de));
+  border: 1px solid #0d111a;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #2c4d93;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-blue:hover {
+  background: #1d55c4;
+  background: -moz-linear-gradient(0% 100% 90deg, #1d55c4 0%, #1d55c4 50%, #3263c7 50%, #6989cf 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-blue:active {
+  background: #1a4aab;
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #1b4bab 0%, #1a4aab 50%, #2b57ad 50%, #5c78b5 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
+  color: #ddd;
+  -webkit-background-clip: padding-box;
+}
+
+/* ios purple (inspired by Apple iOS buttons)
+*******************************************************************************/
+button.ios-purple {
+  background: #6021de;
+  background: -moz-linear-gradient(0% 100% 90deg, #6224de 0%, #6021de 50%, #7038e0 50%, #9e76e8 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(0.5, #7038e0), color-stop(0.5, #6021de), color-stop(1, #6224de));
+  border: 2px solid #0d111a;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #473569;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-purple:hover {
+  background: #551dc4;
+  background: -moz-linear-gradient(0% 100% 90deg, #561fc4 0%, #551dc4 50%, #6332c7 50%, #8d69cf 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(0.5, #6332c7), color-stop(0.5, #551dc4), color-stop(1, #561fc4));
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-purple:active {
+  background: #4a1aab;
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #4b1bab 0%, #4a1aab 50%, #572bad 50%, #7b5cb5 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
+  color: #ddd;
+  -webkit-background-clip: padding-box;
+}
+
+/* ios yellow (inspired by Apple iOS buttons)
+*******************************************************************************/
+button.ios-yellow {
+  background: #debe21;
+  background: -moz-linear-gradient(0% 100% 90deg, #dea024 0%, #debe21 50%, #e0c438 50%, #e8d776 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e8d776), color-stop(0.5, #e0c438), color-stop(0.5, #debe21), color-stop(1, #dea024));
+  border: 3px solid #0d111a;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #262106;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 10px 0 12px 0;
+  text-align: center;
+  width: 150px;
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-yellow:hover {
+  background: #c4a91d;
+  background: -moz-linear-gradient(0% 100% 90deg, #c48d1f 0%, #c4a91d 50%, #c7ae32 50%, #cfbf69 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #cfbf69), color-stop(0.5, #c7ae32), color-stop(0.5, #c4a91d), color-stop(1, #c48d1f));
+  -webkit-background-clip: padding-box;
+}
+
+button.ios-yellow:active {
+  background: #ab931a;
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(229, 229, 0, 0.4), rgba(255, 255, 0, 0.4)),-moz-linear-gradient(0% 100% 90deg, #ab7b1b 0%, #ab931a 50%, #ad982b 50%, #b5a85c 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(255, 255, 0, 0.4)), to(rgba(229, 229, 0, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #b5a85c), color-stop(0.5, #ad982b), color-stop(0.5, #ab931a), color-stop(1, #ab7b1b));
+  -webkit-background-clip: padding-box;
+}
+
+
+/* shiny blue (inspired by rdio iphone interface)
+*******************************************************************************/
+button.shiny-blue {
+  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #1a5ad9 50%, #376fe0 50%, #759ae9 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #759ae9), color-stop(0.5, #376fe0), color-stop(0.5, #1a5ad9), color-stop(1, #2463de));
+  border: 1px solid #174299;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 0;
+  text-shadow: 0 0 1px #1a5ad9;
+  width: 170px;
 }
 
 /* iconic: check-alt
