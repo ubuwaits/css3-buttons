@@ -74,8 +74,8 @@ div.container {
 }
 
 a {
-  border-bottom: 1px solid #151515;
-  color: #151515;
+  color: #333;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -87,14 +87,14 @@ h1 {
 }
 
 p {
+  color: #555;
   font-size: 16px;
-  font-weight: lighter;
+  font-weight: normal;
   line-height: 140%;
   margin: 0 0 12px 0;
 }
 
 p.intro {
-  margin-right: 220px;
 }
 
 p.credit {
