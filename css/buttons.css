@@ -390,90 +390,6 @@ button.fat-blue:active {
   margin-top: 58px;
 }
 
-/* webkit badge
-*******************************************************************************/
-button.webkit-badge {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
-  color: #fff;
-  font-family: "hoefler text", georgia, serif;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: lighter;
-  height: 88px;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #3d0700;
-  width: 150px;
-  -webkit-mask-image: url("../images/badge.png");
-  -webkit-mask-position: left top;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-badge:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
-  cursor: pointer;
-}
-
-button.webkit-badge:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
-}
-
-/* webkit seal
-*******************************************************************************/
-button.webkit-seal {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(1, #6224de));
-  color: #fff;
-  height: 90px;
-  color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #473569;
-  width: 150px;
-  -webkit-mask-image: url("../images/seal.png");
-  -webkit-mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-seal:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
-  cursor: pointer;
-}
-
-button.webkit-seal:active {
-  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
-}
-
-/* webkit badge
-*******************************************************************************/
-button.webkit-check {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(1, #2463de));
-  color: #fff;
-  height: 88px;
-  line-height: 1;
-  padding: 0;
-  text-align: center;
-  text-indent: -9999px;
-  text-shadow: 0px -1px 1px #3d0700;
-  width: 150px;
-  -webkit-mask-image: url("../images/check.png");
-  -webkit-mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-}
-
-button.webkit-check:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
-  cursor: pointer;
-}
-
-button.webkit-check:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
-}
-
 /* ios blue (inspired by Apple iOS buttons)
 *******************************************************************************/
 button.ios-blue {
@@ -692,6 +608,90 @@ button.chat:hover:before {
 
 button.chat:active:before {
   text-shadow: 0px -1px 10px rgba(104, 45, 64, 1);
+}
+
+/* webkit badge
+*******************************************************************************/
+button.webkit-badge {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
+  color: #fff;
+  font-family: "hoefler text", georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  height: 88px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #3d0700;
+  width: 150px;
+  -webkit-mask-image: url("../images/badge.png");
+  -webkit-mask-position: left top;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-badge:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+  cursor: pointer;
+}
+
+button.webkit-badge:active {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+}
+
+/* webkit seal
+*******************************************************************************/
+button.webkit-seal {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(1, #6224de));
+  color: #fff;
+  height: 90px;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0px -1px 1px #473569;
+  width: 150px;
+  -webkit-mask-image: url("../images/seal.png");
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-seal:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
+  cursor: pointer;
+}
+
+button.webkit-seal:active {
+  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
+}
+
+/* webkit check
+*******************************************************************************/
+button.webkit-check {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(1, #2463de));
+  color: #fff;
+  height: 88px;
+  line-height: 1;
+  padding: 0;
+  text-align: center;
+  text-indent: -9999px;
+  text-shadow: 0px -1px 1px #3d0700;
+  width: 150px;
+  -webkit-mask-image: url("../images/check.png");
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+button.webkit-check:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
+  cursor: pointer;
+}
+
+button.webkit-check:active {
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
 }
 
 /* disabled button styles
