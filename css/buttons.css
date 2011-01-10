@@ -49,6 +49,7 @@ button.minimal:hover {
   -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
   box-shadow: inset 0 0 1px 1px #eaeaea;
   color: #222;
+  cursor: pointer;
 }
 
 button.minimal:active {
@@ -90,6 +91,7 @@ button.clean-gray:hover {
   -moz-box-shadow: inset 0 0 5px #e5e5e5;
   -webkit-box-shadow: inset 0 0 5px #e5e5e5;
   box-shadow: inset 0 0 5px #e5e5e5;
+  cursor: pointer;
 }
 
 button.clean-gray:active {
@@ -127,6 +129,7 @@ button.clean-green:hover {
   background: #5a962c;
   background: -moz-linear-gradient(0% 100% 90deg,#5a962c, #72ac45);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#72ac45), to(#5a962c));
+  cursor: pointer;
 }
 
 button.clean-green:active {
@@ -163,6 +166,7 @@ button.pale-blue {
 
 button.pale-blue:hover {
   color: #6f8cc0;
+  cursor: pointer;
 }
 
 button.pale-blue:active {
@@ -201,6 +205,7 @@ button.blue-pill:hover {
   background: #576989;
   background: -moz-linear-gradient(0% 100% 90deg, #576989, #9eb0d1);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9eb0d1), to(#576989));
+  cursor: pointer;
 }
 
 button.blue-pill:active {
@@ -237,6 +242,7 @@ button.dribbble:hover {
   background: #e2558b;
   background: -moz-linear-gradient(0% 100% 90deg, #df3e7b 0%, #df3e7b 50%, #e2558b 50%, #e2558b 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e2558b), to(#df3e7b));
+  cursor: pointer;
 }
 
 button.dribbble:active {
@@ -288,6 +294,7 @@ button.slick-black:hover {
               color-stop(0.5, rgba(50, 50, 50, 0.9)),
               color-stop(0.5, rgba(40, 40, 40, 0.9)),
               color-stop(1, rgba(20, 20, 20, 0.9)));
+  cursor: pointer;
 }
 
 button.slick-black:active {
@@ -333,6 +340,7 @@ button.thoughtbot:hover {
   background: #cb0500;
   background: -moz-linear-gradient(0% 100% 90deg, #a20601 0%, #cb0500 50%, #db504d 50%, #f37873 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+  cursor: pointer;
 }
 
 button.thoughtbot:active {
@@ -371,6 +379,7 @@ button.fat-blue:hover {
   -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
   -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
   box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111;
+  cursor: pointer;
 }
 
 button.fat-blue:active {
@@ -403,6 +412,7 @@ button.webkit-badge {
 
 button.webkit-badge:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+  cursor: pointer;
 }
 
 button.webkit-badge:active {
@@ -431,6 +441,7 @@ button.webkit-seal {
 
 button.webkit-seal:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
+  cursor: pointer;
 }
 
 button.webkit-seal:active {
@@ -456,6 +467,7 @@ button.webkit-check {
 
 button.webkit-check:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
+  cursor: pointer;
 }
 
 button.webkit-check:active {
@@ -488,6 +500,7 @@ button.ios-blue:hover {
   background: -moz-linear-gradient(0% 100% 90deg, #1d55c4 0%, #1d55c4 50%, #3263c7 50%, #6989cf 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
   -webkit-background-clip: padding-box;
+  cursor: pointer;
 }
 
 button.ios-blue:active {
@@ -524,6 +537,7 @@ button.ios-purple:hover {
   background: -moz-linear-gradient(0% 100% 90deg, #561fc4 0%, #551dc4 50%, #6332c7 50%, #8d69cf 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(0.5, #6332c7), color-stop(0.5, #551dc4), color-stop(1, #561fc4));
   -webkit-background-clip: padding-box;
+  cursor: pointer;
 }
 
 button.ios-purple:active {
@@ -559,6 +573,7 @@ button.ios-yellow:hover {
   background: -moz-linear-gradient(0% 100% 90deg, #c48d1f 0%, #c4a91d 50%, #c7ae32 50%, #cfbf69 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #cfbf69), color-stop(0.5, #c7ae32), color-stop(0.5, #c4a91d), color-stop(1, #c48d1f));
   -webkit-background-clip: padding-box;
+  cursor: pointer;
 }
 
 button.ios-yellow:active {
@@ -588,6 +603,10 @@ button.shiny-blue {
   padding: 7px 0;
   text-shadow: 0 0 1px #1a5ad9;
   width: 150px;
+}
+
+button.shiny-blue:hover {
+  cursor: pointer;
 }
 
 /* iconic: check-alt
