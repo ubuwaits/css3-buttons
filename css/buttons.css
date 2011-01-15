@@ -95,9 +95,9 @@ button.clean-gray:hover {
 button.clean-gray:active {
   border: 1px solid #aaa;
   border-bottom: 1px solid #888;
-  -moz-box-shadow: inset 0 0 5px 2px #999, 0 1px 0 0 #eee;
-  -webkit-box-shadow: inset 0 0 5px 2px #999, 0 1px 0 0 #eee;
-  box-shadow: inset 0 0 5px 2px #999, 0 1px 0 0 #eee;
+  -moz-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+  -webkit-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
+  box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
 }
 
 /* cupid green (inspired by okcupid.com)
@@ -143,35 +143,43 @@ button.cupid-green:active {
   box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
 }
 
-/* pale blue (inspired by okcupid.com)
+/* cupid blue (inspired by okcupid.com)
 *******************************************************************************/
-button.pale-blue {
-  background: #e7eef5;
-  border: 1px solid #becfe3;
-  -moz-border-radius: 16px;
-  -webkit-border-radius: 16px;
-  border-radius: 16px;
+button.cupid-blue {
+  background: #e4ecf5;
+  background: -moz-linear-gradient(0% 100% 90deg,#d7e6f5, #e4ecf5);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e4ecf5), to(#d7e6f5));
+  border-top: 1px solid #abbbcc;
+  border-left: 1px solid #a7b6c7;
+  border-bottom: 1px solid #a1afbf;
+  border-right: 1px solid #a7b6c7;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
   -moz-box-shadow: inset 0 1px 0 0 #fff;
   -webkit-box-shadow: inset 0 1px 0 0 #fff;
   box-shadow: inset 0 1px 0 0 #fff;
-  color: #2a65a6;
+  color: #204e80;
   font-family: "lucida grande", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: normal;
   line-height: 1;
-  padding: 5px 0 6px 0;
+  padding: 6px 0 7px 0;
   text-align: center;
+  text-shadow: 0 1px 1px #fff;
   width: 150px;
 }
 
-button.pale-blue:hover {
-  color: #6f8cc0;
+button.cupid-blue:hover {
+  background: #d7e5f5;
+  background: -moz-linear-gradient(0% 100% 90deg,#cbe0f5, #d7e5f5);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d7e5f5), to(#cbe0f5));
+  color: #1a3e66;
   cursor: pointer;
 }
 
-button.pale-blue:active {
+button.cupid-blue:active {
   border: 1px solid #8c98a7;
-  color: #6f8cc0;
 }
 
 /* blue pill (inspired by iTunes)
@@ -183,6 +191,7 @@ button.blue-pill {
   background: -moz-linear-gradient(0% 100% 90deg, #64799e, #a5b8da);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#64799e));
   border: 1px solid #7089b3;
+  border-bottom: 1px solid #607599;
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
@@ -190,13 +199,13 @@ button.blue-pill {
   -webkit-box-shadow: inset 0 1px 0 0 #b4c9ed;
   box-shadow: inset 0 1px 0 0 #b4c9ed;
   color: #2b3951;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 12px;
+  font-family: "lucida grande", sans-serif;
+  font-size: 11px;
   font-weight: bold;
   line-height: 1;
   padding: 8px 0 8px 0;
   text-align: center;
-  text-shadow: 0 1px 0 #99b9f2;
+  text-shadow: 0 1px 1px #99b9f2;
   text-transform: uppercase;
   width: 150px;
 }
