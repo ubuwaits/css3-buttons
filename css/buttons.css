@@ -25,7 +25,7 @@ button::-moz-focus-inner {
 *******************************************************************************/
 button.minimal {
   background: #e3e3e3;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
