@@ -63,7 +63,7 @@ table {
 /* Page specific
 ------------------------------------------------------------------------------*/
 body {
-  background: #eee;
+  background: #fff;
   color: #333;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
@@ -92,9 +92,6 @@ p {
   font-weight: normal;
   line-height: 140%;
   margin: 0 0 12px 0;
-}
-
-p.intro {
 }
 
 p.credit {
@@ -145,7 +142,7 @@ ul.column li {
 }
 
 .block {
-  background: #fff;
+  background: #ddd;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
