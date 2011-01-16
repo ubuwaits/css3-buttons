@@ -136,24 +136,16 @@ ul.column {
 }
 
 ul.column li {
-  display: inline;
-  float: left;
-  width: 225px;
-}
-
-.block {
   background: #ddd;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
   margin: 10px 0 0 10px;
   display: block;
   height: 150px;
   text-align: center;
-}
-
-.block.dark {
-  background: #1c1c1c;
+  width: 215px;
 }
 
 button {
@@ -206,6 +198,8 @@ button.fat-letters {
 
 /* Clear Floated Elements
 ------------------------------------------------------------------------------*/
+.column:after,
+.button-collection:after,
 .clearfix:after {
   clear: both;
   content: ' ';
