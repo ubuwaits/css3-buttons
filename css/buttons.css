@@ -492,41 +492,6 @@ button.purple-candy:active {
   -webkit-background-clip: padding-box;
 }
 
-/* yellow candy
-*******************************************************************************/
-button.yellow-candy {
-  background: #debe21;
-  background: -moz-linear-gradient(0% 100% 90deg, #dea024 0%, #debe21 50%, #e0c438 50%, #e8d776 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e8d776), color-stop(0.5, #e0c438), color-stop(0.5, #debe21), color-stop(1, #dea024));
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  color: #262106;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  width: 150px;
-  -webkit-background-clip: padding-box;
-}
-
-button.yellow-candy:hover {
-  background: #c4a91d;
-  background: -moz-linear-gradient(0% 100% 90deg, #c48d1f 0%, #c4a91d 50%, #c7ae32 50%, #cfbf69 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #cfbf69), color-stop(0.5, #c7ae32), color-stop(0.5, #c4a91d), color-stop(1, #c48d1f));
-  -webkit-background-clip: padding-box;
-  cursor: pointer;
-}
-
-button.yellow-candy:active {
-  background: #ab931a;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(229, 229, 0, 0.4), rgba(255, 255, 0, 0.4)),-moz-linear-gradient(0% 100% 90deg, #ab7b1b 0%, #ab931a 50%, #ad982b 50%, #b5a85c 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(255, 255, 0, 0.4)), to(rgba(229, 229, 0, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #b5a85c), color-stop(0.5, #ad982b), color-stop(0.5, #ab931a), color-stop(1, #ab7b1b));
-  -webkit-background-clip: padding-box;
-}
-
 /* shiny blue (inspired by rdio iphone interface)
 *******************************************************************************/
 button.shiny-blue {
@@ -545,10 +510,10 @@ button.shiny-blue {
   box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   color: #fff;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   padding: 7px 0;
-  text-shadow: 0 0 1px #1a5ad9;
+  text-shadow: 0 -1px 1px #1a5ad9;
   width: 150px;
 }
 
