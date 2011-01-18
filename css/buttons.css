@@ -381,9 +381,9 @@ button.thoughtbot:active {
 *******************************************************************************/
 button.punch {
   background: #4162a8;
-  border-top: 1px solid #243559;
+  border-top: 1px solid #38538c;
   border-right: 1px solid #1f2d4d;
-  border-bottom: 1px solid #1a2640;
+  border-bottom: 1px solid #151e33;
   border-left: 1px solid #1f2d4d;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -399,7 +399,7 @@ button.punch {
   margin-bottom: 10px;
   padding: 10px 0 12px 0;
   text-align: center;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
+  text-shadow: 0px -1px 1px #1e2d4d;
   width: 150px;
   -webkit-background-clip: padding-box;
 }
@@ -412,7 +412,6 @@ button.punch:hover {
 }
 
 button.punch:active {
-  background: #395591;
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
   box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111;
