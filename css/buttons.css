@@ -534,7 +534,10 @@ button.shiny-blue {
   background: #2463de;
   background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #1a5ad9 50%, #376fe0 50%, #759ae9 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #759ae9), color-stop(0.5, #376fe0), color-stop(0.5, #1a5ad9), color-stop(1, #2463de));
-  border: 1px solid #174299;
+  border-top: 1px solid #1f58cc;
+  border-right: 1px solid #1b4db3;
+  border-bottom: 1px solid #174299;
+  border-left: 1px solid #1b4db3;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -546,7 +549,7 @@ button.shiny-blue {
   font-size: 14px;
   font-weight: bold;
   padding: 7px 0;
-  text-shadow: 0 -1px 1px #1a5ad9;
+  text-shadow: 0 0 1px #1a5ad9;
   width: 150px;
 }
 
@@ -558,7 +561,13 @@ button.shiny-blue:hover {
 }
 
 button.shiny-blue:active {
-  -webkit-box-shadow: inset 0 0 5px 2px #1a47a0;
+  border-top: 1px solid #1b4db3;
+  border-right: 1px solid #174299;
+  border-bottom: 1px solid #133780;
+  border-left: 1px solid #174299;
+  -moz-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eee;
+  -webkit-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eee;
+  box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eee;
 }
 
 /* iconic: check-alt
