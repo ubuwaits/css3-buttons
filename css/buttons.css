@@ -610,6 +610,34 @@ button.download-itunes::-moz-focus-inner {
   padding: 0;
 }
 
+/* skip (inspired by okcupid iphone interface)
+*******************************************************************************/
+button.skip {
+  background: #7a88a7;
+  background: -moz-linear-gradient(0% 100% 90deg, #324778 0%, #2d4375 50%, #465985 50%, #7a88a7 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7a88a7), color-stop(0.5, #465985), color-stop(0.5, #2d4375), color-stop(1, #324778));
+  border: 1px solid #0f1e46;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
+  -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
+  box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
+  color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 0;
+  text-shadow: 0 -1px 1px #000a32;
+  width: 150px;
+}
+
+button.skip:hover {
+}
+
+button.skip:active {
+}
+
 /* iconic: check-alt
 *******************************************************************************/
 button.check-alt {
