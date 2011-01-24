@@ -638,6 +638,49 @@ button.skip:hover {
 button.skip:active {
 }
 
+/* minimal indent (inspired by okcupid iphone interface)
+*******************************************************************************/
+button.minimal-indent {
+  background: #7a88a7;
+  background: -moz-linear-gradient(0% 100% 90deg, #324778 0%, #2d4375 50%, #465985 50%, #7a88a7 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f3f3f3), color-stop(0.5, #dddddd), color-stop(0.5, #d2d2d2), color-stop(1, #dfdfdf));
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #b4b4b4;
+  border-right: 1px solid #dfdfdf;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
+  -webkit-box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #c5c5c5, 0 -1px 2px 1px #efefef;
+  box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #c5c5c5;
+  color: #666666;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 7px 0;
+  text-shadow: 0 1px 1px #fff;
+  width: 150px;
+  z-index: 3;
+}
+
+div.indent {
+  background: #333;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e2e2), to(#f3f3f3));
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  margin: 50px auto 0;
+  padding: 10px 0;
+  width: 170px;
+}
+
+button.minimal-indent:hover {
+}
+
+button.minimal-indent:active {
+}
+
 /* iconic: check-alt
 *******************************************************************************/
 button.check-alt {
