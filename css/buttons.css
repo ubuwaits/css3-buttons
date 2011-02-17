@@ -64,7 +64,7 @@ button.minimal:active {
 *******************************************************************************/
 button.clean-gray {
   background: #eee;
-  background: -moz-linear-gradient(0% 100% 90deg, #ccc, #eee);
+  background: -moz-linear-gradient(top, #eee 0%, #ccc 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc));
   border: 1px solid #ccc;
   border-bottom: 1px solid #bbb;
@@ -84,7 +84,7 @@ button.clean-gray {
 
 button.clean-gray:hover {
   background: #ddd;
-  background: -moz-linear-gradient(0% 100% 90deg, #bbb, #ddd);
+  background: -moz-linear-gradient(top, #ddd 0%, #bbb 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#bbb));
   border: 1px solid #bbb;
   border-bottom: 1px solid #999;
@@ -104,7 +104,7 @@ button.clean-gray:active {
 *******************************************************************************/
 button.cupid-green {
   background: #7fbf4d;
-  background: -moz-linear-gradient(0% 100% 90deg,#63a62f, #7fbf4d);
+  background: -moz-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
@@ -127,7 +127,7 @@ button.cupid-green {
 
 button.cupid-green:hover {
   background: #76b347;
-  background: -moz-linear-gradient(0% 100% 90deg,#5e9e2e, #76b347);
+  background: -moz-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76b347), to(#5e9e2e));
   -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
   -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
@@ -147,7 +147,7 @@ button.cupid-green:active {
 *******************************************************************************/
 button.cupid-blue {
   background: #d7e5f5;
-  background: -moz-linear-gradient(0% 100% 90deg,#cbe0f5, #d7e5f5);
+  background: -moz-linear-gradient(top, #d7e5f5 0%, #cbe0f5 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d7e5f5), to(#cbe0f5));
   border-top: 1px solid #abbbcc;
   border-left: 1px solid #a7b6c7;
@@ -172,7 +172,7 @@ button.cupid-blue {
 
 button.cupid-blue:hover {
   background: #ccd9e8;
-  background: -moz-linear-gradient(0% 100% 90deg,#c1d4e8, #ccd9e8);
+  background: -moz-linear-gradient(top, #ccd9e8 0%, #c1d4e8 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccd9e8), to(#c1d4e8));
   border-top: 1px solid #a1afbf;
   border-left: 1px solid #9caaba;
@@ -198,7 +198,7 @@ button.cupid-blue:active {
 *******************************************************************************/
 button.blue-pill {
   background: #a5b8da;
-  background: -moz-linear-gradient(0% 100% 90deg, #7089b3, #a5b8da);
+  background: -moz-linear-gradient(top, #a5b8da 0%, #7089b3 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#7089b3));
   border-top: 1px solid #758fba;
   border-right: 1px solid #6c84ab;
@@ -224,7 +224,7 @@ button.blue-pill {
 
 button.blue-pill:hover {
   background: #9badcc;
-  background: -moz-linear-gradient(0% 100% 90deg, #687fa6, #9badcc);
+  background: -moz-linear-gradient(top, #9badcc 0%, #687fa6 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9badcc), to(#687fa6));
   border-top: 1px solid #6d86ad;
   border-right: 1px solid #647a9e;
@@ -247,7 +247,7 @@ button.blue-pill:active {
 *******************************************************************************/
 button.dribbble {
   background: #F26895;
-  background: -moz-linear-gradient(0% 100% 90deg, #F15587 0%, #F15587 50%, #F26895 50%, #F26895 100%);
+  background: -moz-linear-gradient(top, #F26895 0, #F26895 50%, #F15587 50%, #F15587 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
   border: 0;
   -moz-border-radius: 6px;
@@ -266,14 +266,14 @@ button.dribbble {
 
 button.dribbble:hover {
   background: #e2558b;
-  background: -moz-linear-gradient(0% 100% 90deg, #df3e7b 0%, #df3e7b 50%, #e2558b 50%, #e2558b 100%);
+  background: -moz-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e2558b), to(#df3e7b));
   cursor: pointer;
 }
 
 button.dribbble:active {
   background: #c94477;
-  background: -moz-linear-gradient(0% 100% 90deg, #c22b65 0%, #c22b65 50%, #c94477 50%, #c94477 100%);
+  background: -moz-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c94477), to(#c22b65));
 }
 
@@ -281,11 +281,11 @@ button.dribbble:active {
 *******************************************************************************/
 button.slick-black {
   background: #111;
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
-              rgba(0, 0, 0, 0.9) 0%,
-              rgba(20, 20, 20, 0.9) 50%,
+  background: -moz-linear-gradient(top,
+              rgba(50, 50, 50, 0.9) 0%,
               rgba(30, 30, 30, 0.9) 50%,
-              rgba(50, 50, 50, 0.9) 100%);
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
               color-stop(0, rgba(50, 50, 50, 0.9)),
               color-stop(0.5, rgba(30, 30, 30, 0.9)),
@@ -310,11 +310,11 @@ button.slick-black {
 
 button.slick-black:hover {
   background: #222;
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
-              rgba(20, 20, 20, 0.9) 0%,
-              rgba(40, 40, 40, 0.9) 50%,
+  background: -moz-linear-gradient(top,
+              rgba(70, 70, 70, 0.9) 0%,
               rgba(50, 50, 50, 0.9) 50%,
-              rgba(70, 70, 70, 0.9) 100%);
+              rgba(40, 40, 40, 0.9) 50%,
+              rgba(20, 20, 20, 0.9) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
               color-stop(0, rgba(70, 70, 70, 0.9)),
               color-stop(0.5, rgba(50, 50, 50, 0.9)),
@@ -325,11 +325,11 @@ button.slick-black:hover {
 
 button.slick-black:active {
   background: #000;
-  background: -moz-linear-gradient(0% 100% 90deg, #FFFFFF, #000000,
-              rgba(0, 0, 0, 0.9) 0%,
-              rgba(10, 10, 10, 0.9) 50%,
+  background: -moz-linear-gradient(top,
+              rgba(30, 30, 30, 0.9) 0%,
               rgba(20, 20, 20, 0.9) 50%,
-              rgba(30, 30, 30, 0.9) 100%);
+              rgba(10, 10, 10, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
               color-stop(0, rgba(30, 30, 30, 0.9)),
               color-stop(0.5, rgba(20, 20, 20, 0.9)),
@@ -341,7 +341,7 @@ button.slick-black:active {
 *******************************************************************************/
 button.thoughtbot {
   background: #c63929;
-  background: -moz-linear-gradient(0% 100% 90deg, #891100 0%, #B51700 50%, #c63929 50%, #EE432E 100%);
+  background: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
   border: 1px solid #951100;
   -moz-border-radius: 5px;
@@ -363,14 +363,14 @@ button.thoughtbot {
 
 button.thoughtbot:hover {
   background: #cb0500;
-  background: -moz-linear-gradient(0% 100% 90deg, #a20601 0%, #cb0500 50%, #db504d 50%, #f37873 100%);
+  background: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
   cursor: pointer;
 }
 
 button.thoughtbot:active {
   background: #b30300;
-  background: -moz-linear-gradient(0% 100% 90deg, #700d00 0%, #9c1500 50%, #ad3224 50%, #d43c28 100%);
+  background: -moz-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
@@ -422,7 +422,7 @@ button.punch:active {
 *******************************************************************************/
 button.blue-candy {
   background: #2260dd;
-  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #2260dd 50%, #376fe0 50%, #779be9 100%);
+  background: -moz-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(0.5, #376fe0), color-stop(0.5, #2260dd), color-stop(1, #2463de));
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -441,7 +441,7 @@ button.blue-candy {
 
 button.blue-candy:hover {
   background: #1d55c4;
-  background: -moz-linear-gradient(0% 100% 90deg, #1d55c4 0%, #1d55c4 50%, #3263c7 50%, #6989cf 100%);
+  background: -moz-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
   -webkit-background-clip: padding-box;
   cursor: pointer;
@@ -449,8 +449,10 @@ button.blue-candy:hover {
 
 button.blue-candy:active {
   background: #1a4aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #1b4bab 0%, #1a4aab 50%, #2b57ad 50%, #5c78b5 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+              -moz-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
+              -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
   color: #ddd;
   -webkit-background-clip: padding-box;
 }
@@ -459,7 +461,7 @@ button.blue-candy:active {
 *******************************************************************************/
 button.purple-candy {
   background: #6021de;
-  background: -moz-linear-gradient(0% 100% 90deg, #6224de 0%, #6021de 50%, #7038e0 50%, #9e76e8 100%);
+  background: -moz-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(0.5, #7038e0), color-stop(0.5, #6021de), color-stop(1, #6224de));
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -478,7 +480,7 @@ button.purple-candy {
 
 button.purple-candy:hover {
   background: #551dc4;
-  background: -moz-linear-gradient(0% 100% 90deg, #561fc4 0%, #551dc4 50%, #6332c7 50%, #8d69cf 100%);
+  background: -moz-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(0.5, #6332c7), color-stop(0.5, #551dc4), color-stop(1, #561fc4));
   -webkit-background-clip: padding-box;
   cursor: pointer;
@@ -486,8 +488,10 @@ button.purple-candy:hover {
 
 button.purple-candy:active {
   background: #4a1aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),-moz-linear-gradient(0% 100% 90deg, #4b1bab 0%, #4a1aab 50%, #572bad 50%, #7b5cb5 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
+  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+              -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
+  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
+              -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
   color: #ddd;
   -webkit-background-clip: padding-box;
 }
@@ -496,7 +500,7 @@ button.purple-candy:active {
 *******************************************************************************/
 button.shiny-blue {
   background: #2463de;
-  background: -moz-linear-gradient(0% 100% 90deg, #2463de 0%, #1a5ad9 50%, #376fe0 50%, #759ae9 100%);
+  background: -moz-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #759ae9), color-stop(0.5, #376fe0), color-stop(0.5, #1a5ad9), color-stop(1, #2463de));
   border-top: 1px solid #1f58cc;
   border-right: 1px solid #1b4db3;
@@ -519,7 +523,7 @@ button.shiny-blue {
 
 button.shiny-blue:hover {
   background: #0d53de;
-  background: -moz-linear-gradient(0% 100% 90deg, #0d53de 0%, #044bd9 50%, #2261e0 50%, #5d89e8 100%);
+  background: -moz-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5d89e8), color-stop(0.5, #2261e0), color-stop(0.5, #044bd9), color-stop(1, #0d53de));
   cursor: pointer;
 }
@@ -539,8 +543,8 @@ button.shiny-blue:active {
    http://robots.thoughtbot.com/post/2718077289/make-css3-buttons-like-a-boss
 *******************************************************************************/
 button.download-itunes {
-  background: #3b88d8;
-  background: -moz-linear-gradient(0% 100% 90deg, #377ad0, #52a8e8);
+  background: #377ad0;
+  background: -moz-linear-gradient(top, #52a8e8 0%, #377ad0 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#52a8e8), to(#377ad0));
   border-top: 1px solid #4081af;
   border-right: 1px solid #2e69a3;
@@ -564,8 +568,8 @@ button.download-itunes {
 }
 
 button.download-itunes:hover {
-  background: #2a81d7;
-  background: -moz-linear-gradient(0% 100% 90deg, #206bcb, #3e9ee5);
+  background: #206bcb;
+  background: -moz-linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3e9ee5), to(#206bcb));
   border-top: 1px solid #2a73a6;
   border-right: 1px solid #165899;
@@ -591,7 +595,8 @@ button.download-itunes:active {
 button[disabled].download-itunes,
 button[disabled].download-itunes:hover,
 button[disabled].download-itunes:active {
-  background: #999;
+  background: #dadada;
+  background: -moz-linear-gradient(top, #f3f3f3 0%, #dadada 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dadada), to(#f3f3f3));
   border-top: 1px solid #c5c5c5;
   border-right: 1px solid #cecece;
@@ -614,7 +619,7 @@ button.download-itunes::-moz-focus-inner {
 *******************************************************************************/
 button.skip {
   background: #7a88a7;
-  background: -moz-linear-gradient(0% 100% 90deg, #324778 0%, #2d4375 50%, #465985 50%, #7a88a7 100%);
+  background: -moz-linear-gradient(top, #7a88a7 0%, #465985 50%, #2d4375 50%, #324778 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7a88a7), color-stop(0.5, #465985), color-stop(0.5, #2d4375), color-stop(1, #324778));
   border: 1px solid #0f1e46;
   -moz-border-radius: 5px;
@@ -642,7 +647,7 @@ button.skip:active {
 *******************************************************************************/
 button.minimal-indent {
   background: #7a88a7;
-  background: -moz-linear-gradient(0% 100% 90deg, #dfdfdf 0%, #d2d2d2 50%, #dddddd 50%, #f3f3f3 100%);
+  background: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f3f3f3), color-stop(0.5, #dddddd), color-stop(0.5, #d2d2d2), color-stop(1, #dfdfdf));
   border-right: 1px solid #dfdfdf;
   border-bottom: 1px solid #b4b4b4;
@@ -665,7 +670,7 @@ button.minimal-indent {
 
 div.indent {
   background: #e2e2e2;
-  background: -moz-linear-gradient(0% 100% 90deg, #fafafa, #e2e2e2);
+  background: -moz-linear-gradient(top, #e2e2e2 0%, #fafafa 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e2e2), to(#fafafa));
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
