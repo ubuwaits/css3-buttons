@@ -608,29 +608,40 @@ button.download-itunes::-moz-focus-inner {
 /* skip (inspired by okcupid iphone interface)
 *******************************************************************************/
 button.skip {
-  background: #7a88a7;
-  background: -moz-linear-gradient(top, #7a88a7 0%, #465985 50%, #2d4375 50%, #324778 100%);
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7a88a7), color-stop(0.5, #465985), color-stop(0.5, #2d4375), color-stop(1, #324778));
-  border: 1px solid #0f1e46;
+  background: #36518f;
+  background: -moz-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8c9cbf), color-stop(0.5, #546a9e), color-stop(0.5, #36518f), color-stop(1, #3d5691));
+  border: 1px solid #172d6e;
+  border-bottom: 1px solid #0e1d45;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
-  -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
-  box-shadow: inset 0 1px 0 0 #b1b9cb, 0 1px 0 0 #596b94;
+  -moz-box-shadow: inset 0 1px 0 0 #b1b9cb;
+  -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
+  box-shadow: inset 0 1px 0 0 #b1b9cb;
   color: #fff;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
-  padding: 7px 0;
-  text-shadow: 0 -1px 1px #000a32;
+  padding: 7px 0 8px 0;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 -1px 1px #000f4d;
   width: 150px;
 }
 
 button.skip:hover {
+  background: #2f477d;
+  background: -moz-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7f8dad), color-stop(0.5, #4a5e8c), color-stop(0.5, #2f477d), color-stop(1, #364c80));
+  cursor: pointer;
 }
 
 button.skip:active {
+  -moz-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 #fff;
+  -webkit-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 #fff;
+  box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 #fff;
+  cursor: pointer;
 }
 
 /* minimal indent (inspired by okcupid iphone interface)
