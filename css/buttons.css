@@ -647,7 +647,7 @@ button.skip:active {
 /* minimal indent (inspired by okcupid iphone interface)
 *******************************************************************************/
 button.minimal-indent {
-  background: #7a88a7;
+  background: #d2d2d2;
   background: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f3f3f3), color-stop(0.5, #dddddd), color-stop(0.5, #d2d2d2), color-stop(1, #dfdfdf));
   border-right: 1px solid #dfdfdf;
@@ -656,9 +656,9 @@ button.minimal-indent {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #c5c5c5, 0 -1px 2px 1px #efefef;
-  -webkit-box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #c5c5c5, 0 -1px 2px 1px #efefef;
-  box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #c5c5c5, 0 -1px 2px 1px #efefef;
+  -moz-box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
+  -webkit-box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
+  box-shadow: inset 0 1px 0 0 #fff, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   color: #666666;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 16px;
@@ -667,6 +667,19 @@ button.minimal-indent {
   padding: 7px 0;
   text-shadow: 0 1px 1px #fff;
   width: 150px;
+}
+
+button.minimal-indent:hover {
+  background: #c4c4c4;
+  background: -moz-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e5e5e5), color-stop(0.5, #d1d1d1), color-stop(0.5, #c4c4c4), color-stop(1, #b8b8b8));
+  -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
+}
+
+button.minimal-indent:active {
+  -moz-box-shadow: inset 0 0 30px 0 #999, 0 1px 0 0 #fff;
+  -webkit-box-shadow: inset 0 0 30px 0 #999, 0 1px 0 0 #fff;
+  box-shadow: inset 0 0 30px 0 #999, 0 1px 0 0 #fff;
 }
 
 div.indent {
