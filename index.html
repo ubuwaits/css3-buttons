@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen">
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/base/jquery-ui.css" type="text/css">
+  <link rel="stylesheet" href="prettify/prettify.css" type="text/css" media="screen">
 </head>
 <body>
   <div class="container">
@@ -94,13 +95,14 @@
     <br/>Script for displaying CSS on button click created by <a href="https://github.com/inkel">Leandro L&oacute;pez (inkel)</a>.</p>
 
     <div id="css-dialog" title="CSS">
-      <pre><code id="rules"></code></pre>
+      <pre style="font-size: 0.8em"><code id="rules" class="prettyprint lang-css"></code></pre>
     </div>
   </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
-
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="prettify/lang-css.js"></script>
 <script type="text/javascript">
 $(function() {
   var css = $('#css-dialog').dialog({ autoOpen: false, width: 600 });
@@ -108,15 +110,15 @@ $(function() {
   $('button').click(function() {
     if(!document.getElementById('show_css').checked) return;
 
-    var code = document.getElementById('rules');
-    code.innerHTML = '';
-
-    var re = new RegExp(this.className);
+    var code = '', re = new RegExp(this.className + '[^-\W]');
     for(var i = 0, j = _ss.cssRules.length; i < j; i++) {
       var rule = _ss.cssRules.item(i);
       if(re.test(rule.selectorText))
-        code.innerHTML = code.innerHTML + rule.cssText.replace(/{/, "{\n").replace(/;/g, ";\n") + "\n\n";
+        code += rule.cssText;
     }
+
+    $('#rules').html(code.replace(/([{;}])/g, "$1\n"));
+    prettyPrint();
 
     css.dialog('option', 'title', 'CSS: ' + this.className).dialog('open');
   });
