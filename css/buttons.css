@@ -57,6 +57,7 @@ button.clean-gray {
   background: -moz-linear-gradient(top, #eee 0%, #ccc 100%);
   background: -o-linear-gradient(top, #eee 0%, #ccc 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#ccc));
+  background: linear-gradient(top, #eee 0%, #ccc 100%);
   border: 1px solid #ccc;
   border-bottom: 1px solid #bbb;
   -moz-border-radius: 3px;
@@ -78,6 +79,7 @@ button.clean-gray:hover {
   background: -moz-linear-gradient(top, #ddd 0%, #bbb 100%);
   background: -o-linear-gradient(top, #ddd 0%, #bbb 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#bbb));
+  background: linear-gradient(top, #ddd 0%, #bbb 100%);
   border: 1px solid #bbb;
   border-bottom: 1px solid #999;
   cursor: pointer;
@@ -99,6 +101,7 @@ button.cupid-green {
   background: -moz-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background: -o-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
+  background: linear-gradient(top, #7fbf4d 0%, #63a62f
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
   -moz-border-radius: 3px;
@@ -123,6 +126,7 @@ button.cupid-green:hover {
   background: -moz-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   background: -o-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76b347), to(#5e9e2e));
+  background: linear-gradient(top, #76b347 0%, #5e9e2e 100%);
   -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
   -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
   box-shadow: inset 0 1px 0 0 #8dbf67;
@@ -169,6 +173,7 @@ button.cupid-blue:hover {
   background: -moz-linear-gradient(top, #ccd9e8 0%, #c1d4e8 100%);
   background: -o-linear-gradient(top, #ccd9e8 0%, #c1d4e8 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccd9e8), to(#c1d4e8));
+  background: linear-gradient(top, #ccd9e8 0%, #c1d4e8 100%);
   border-top: 1px solid #a1afbf;
   border-left: 1px solid #9caaba;
   border-bottom: 1px solid #96a3b3;
@@ -196,6 +201,7 @@ button.blue-pill {
   background: -moz-linear-gradient(top, #a5b8da 0%, #7089b3 100%);
   background: -o-linear-gradient(top, #a5b8da 0%, #7089b3 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#7089b3));
+  background: linear-gradient(top, #a5b8da 0%, #7089b3 100%);
   border-top: 1px solid #758fba;
   border-right: 1px solid #6c84ab;
   border-bottom: 1px solid #5c6f91;
@@ -223,6 +229,7 @@ button.blue-pill:hover {
   background: -moz-linear-gradient(top, #9badcc 0%, #687fa6 100%);
   background: -o-linear-gradient(top, #9badcc 0%, #687fa6 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9badcc), to(#687fa6));
+  background: linear-gradient(top, #9badcc 0%, #687fa6 100%);
   border-top: 1px solid #6d86ad;
   border-right: 1px solid #647a9e;
   border-bottom: 1px solid #546685;
@@ -247,6 +254,7 @@ button.dribbble {
   background: -moz-linear-gradient(top, #F26895 0, #F26895 50%, #F15587 50%, #F15587 100%);
   background: -o-linear-gradient(top, #F26895 0, #F26895 50%, #F15587 50%, #F15587 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#F26895), to(#F15587));
+  background: linear-gradient(top, #F26895 0, #F26895 50%, #F15587 50%, #F15587 100%);
   border: 0;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -266,6 +274,7 @@ button.dribbble:hover {
   background: #e2558b;
   background: -moz-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
   background: -o-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
+  background: linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e2558b), to(#df3e7b));
   cursor: pointer;
 }
@@ -274,6 +283,7 @@ button.dribbble:active {
   background: #c94477;
   background: -moz-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
   background: -o-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
+  background: linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
   background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c94477), to(#c22b65));
 }
 
@@ -286,16 +296,22 @@ button.slick-black {
               rgba(30, 30, 30, 0.9) 50%,
               rgba(20, 20, 20, 0.9) 50%,
               rgba(0, 0, 0, 0.9) 100%);
+ /* Opera's colors are a smidgen off. Need to dial down the gradient a touch */
   background: -o-linear-gradient(top,
-              rgba(50, 50, 50, 0.9) 0%,
-              rgba(30, 30, 30, 0.9) 50%,
-              rgba(20, 20, 20, 0.9) 50%,
-              rgba(0, 0, 0, 0.9) 100%);
+              rgba(50, 50, 50, 0.85) 0%,
+              rgba(30, 30, 30, 0.85) 50%,
+              rgba(20, 20, 20, 0.85) 50%,
+              rgba(0, 0, 0, 0.85) 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%,
               color-stop(0, rgba(50, 50, 50, 0.9)),
               color-stop(0.5, rgba(30, 30, 30, 0.9)),
               color-stop(0.5, rgba(20, 20, 20, 0.9)),
               color-stop(1, rgba(0, 0, 0, 0.9)));
+  background: linear-gradient(top,
+              rgba(50, 50, 50, 0.9) 0%,
+              rgba(30, 30, 30, 0.9) 50%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
   border: 0;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -330,6 +346,11 @@ button.slick-black:hover {
               color-stop(0.5, rgba(50, 50, 50, 0.9)),
               color-stop(0.5, rgba(40, 40, 40, 0.9)),
               color-stop(1, rgba(20, 20, 20, 0.9)));
+  background: linear-gradient(top,
+              rgba(70, 70, 70, 0.85) 0%,
+              rgba(50, 50, 50, 0.85) 50%,
+              rgba(40, 40, 40, 0.85) 50%,
+              rgba(20, 20, 20, 0.85) 100%);
   cursor: pointer;
 }
 
@@ -350,6 +371,11 @@ button.slick-black:active {
               color-stop(0.5, rgba(20, 20, 20, 0.9)),
               color-stop(0.5, rgba(10, 10, 10, 0.9)),
               color-stop(1, rgba(0, 0, 0, 0.9)));
+  background: linear-gradient(top,
+              rgba(30, 30, 30, 0.9) 0%,
+              rgba(20, 20, 20, 0.9) 50%,
+              rgba(10, 10, 10, 0.9) 50%,
+              rgba(0, 0, 0, 0.9) 100%);
 }
 
 /* thoughtbot (inspired by thoughtbot.com)
@@ -359,6 +385,7 @@ button.thoughtbot {
   background: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   background: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
+  background: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   border: 1px solid #951100;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -382,6 +409,7 @@ button.thoughtbot:hover {
   background: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
   background: -o-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+  background: linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
   cursor: pointer;
 }
 
@@ -390,6 +418,7 @@ button.thoughtbot:active {
   background: -moz-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
   background: -o-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+  background: linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
   box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
@@ -443,6 +472,7 @@ button.blue-candy {
   background: -moz-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
   background: -o-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(0.5, #376fe0), color-stop(0.5, #2260dd), color-stop(1, #2463de));
+  background: linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -463,6 +493,7 @@ button.blue-candy:hover {
   background: -moz-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
   background: -o-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(0.5, #3263c7), color-stop(0.5, #1d55c4), color-stop(1, #1d55c4));
+  background: linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
   -webkit-background-clip: padding-box;
   cursor: pointer;
 }
@@ -471,10 +502,13 @@ button.blue-candy:active {
   background: #1a4aab;
   background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
               -moz-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
+              /* Note: Opera doesn't yet support radial gradients */
   background: -o-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
               -o-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
   background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
               -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
+  background: radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+              linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
   color: #ddd;
   -webkit-background-clip: padding-box;
 }
@@ -486,6 +520,7 @@ button.purple-candy {
   background: -moz-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   background: -o-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #9e76e8), color-stop(0.5, #7038e0), color-stop(0.5, #6021de), color-stop(1, #6224de));
+  background: linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -506,6 +541,7 @@ button.purple-candy:hover {
   background: -moz-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
   background: -o-linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(0.5, #6332c7), color-stop(0.5, #551dc4), color-stop(1, #561fc4));
+  background: linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
   -webkit-background-clip: padding-box;
   cursor: pointer;
 }
@@ -514,9 +550,13 @@ button.purple-candy:active {
   background: #4a1aab;
   background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
               -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
-  background: -o-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%); /* no radial gradients yet */
+              /* placeholder since opera doesn't yet support radial gradients */
+  background: -o-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+  			  -o-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
   background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
               -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
+  background: radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+  			  linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
   color: #ddd;
   -webkit-background-clip: padding-box;
 }
@@ -528,6 +568,7 @@ button.shiny-blue {
   background: -moz-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
   background: -o-linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #759ae9), color-stop(0.5, #376fe0), color-stop(0.5, #1a5ad9), color-stop(1, #2463de));
+  background: linear-gradient(top, #759ae9 0%, #376fe0 50%, #1a5ad9 50%, #2463de 100%);
   border-top: 1px solid #1f58cc;
   border-right: 1px solid #1b4db3;
   border-bottom: 1px solid #174299;
@@ -552,6 +593,7 @@ button.shiny-blue:hover {
   background: -moz-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
   background: -o-linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5d89e8), color-stop(0.5, #2261e0), color-stop(0.5, #044bd9), color-stop(1, #0d53de));
+  background: linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
   cursor: pointer;
 }
 
@@ -574,6 +616,7 @@ button.download-itunes {
   background: -moz-linear-gradient(top, #52a8e8 0%, #377ad0 100%);
   background: -o-linear-gradient(top, #52a8e8 0%, #377ad0 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#52a8e8), to(#377ad0));
+  background: linear-gradient(top, #52a8e8 0%, #377ad0 100%);
   border-top: 1px solid #4081af;
   border-right: 1px solid #2e69a3;
   border-bottom: 1px solid #20559a;
@@ -600,6 +643,7 @@ button.download-itunes:hover {
   background: -moz-linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
   background: -o-linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3e9ee5), to(#206bcb));
+  background: linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
   border-top: 1px solid #2a73a6;
   border-right: 1px solid #165899;
   border-bottom: 1px solid #07428f;
@@ -628,6 +672,7 @@ button[disabled].download-itunes:active {
   background: -moz-linear-gradient(top, #f3f3f3 0%, #dadada 100%);
   background: -o-linear-gradient(top, #f3f3f3 0%, #dadada 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dadada), to(#f3f3f3));
+  background: linear-gradient(top, #f3f3f3 0%, #dadada 100%);
   border-top: 1px solid #c5c5c5;
   border-right: 1px solid #cecece;
   border-bottom: 1px solid #d9d9d9;
@@ -652,6 +697,7 @@ button.skip {
   background: -moz-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
   background: -o-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8c9cbf), color-stop(0.5, #546a9e), color-stop(0.5, #36518f), color-stop(1, #3d5691));
+  background: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
   border: 1px solid #172d6e;
   border-bottom: 1px solid #0e1d45;
   -moz-border-radius: 5px;
@@ -676,6 +722,7 @@ button.skip:hover {
   background: -moz-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
   background: -o-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7f8dad), color-stop(0.5, #4a5e8c), color-stop(0.5, #2f477d), color-stop(1, #364c80));
+  background: linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
   cursor: pointer;
 }
 
@@ -693,6 +740,7 @@ button.minimal-indent {
   background: -moz-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
   background: -o-linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f3f3f3), color-stop(0.5, #dddddd), color-stop(0.5, #d2d2d2), color-stop(1, #dfdfdf));
+  background: linear-gradient(top, #f3f3f3 0%, #dddddd 50%, #d2d2d2 50%, #dfdfdf 100%);
   border-right: 1px solid #dfdfdf;
   border-bottom: 1px solid #b4b4b4;
   border-right: 1px solid #dfdfdf;
@@ -717,7 +765,9 @@ button.minimal-indent:hover {
   background: -moz-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
   background: -o-linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #e5e5e5), color-stop(0.5, #d1d1d1), color-stop(0.5, #c4c4c4), color-stop(1, #b8b8b8));
+  background: linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
   -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
+  box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
 }
 
 button.minimal-indent:active {
@@ -731,6 +781,7 @@ div.indent {
   background: -moz-linear-gradient(top, #e2e2e2 0%, #fafafa 100%);
   background: -o-linear-gradient(top, #e2e2e2 0%, #fafafa 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e2e2), to(#fafafa));
+  background: linear-gradient(top, #e2e2e2 0%, #fafafa 100%);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
