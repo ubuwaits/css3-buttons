@@ -110,7 +110,7 @@ $(function() {
   $('button').click(function() {
     if(!document.getElementById('show_css').checked) return;
 
-    var code = '', re = new RegExp(this.className + '[^-\W]');
+    var code = '', re = new RegExp('\.' + this.className + '$|\.' + this.className + '[:\[]');
     for(var i = 0, j = _ss.cssRules.length; i < j; i++) {
       var rule = _ss.cssRules.item(i);
       if(re.test(rule.selectorText))
