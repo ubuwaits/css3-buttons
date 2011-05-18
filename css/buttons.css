@@ -101,7 +101,7 @@ button.cupid-green {
   background: -moz-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background: -o-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
-  background: linear-gradient(top, #7fbf4d 0%, #63a62f
+  background: linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
   -moz-border-radius: 3px;
