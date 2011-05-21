@@ -6,10 +6,10 @@
   <meta name="description" content="A collection of CSS3 buttons by Chad Mazzola">
   <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/base/jquery-ui.css" type="text/css">
+  <link rel="stylesheet" href="prettify/prettify.css" type="text/css" media="screen">
 </head>
-
 <body>
-
   <div class="container">
     <h1>CSS3 buttons</h1>
     <p class="intro">This is a collection of buttons that show what is possible using CSS3 while also maintaining the simplest possible markup. They look best in WebKit-based browsers, almost as good in Firefox, with all other browsers falling back to a less-styled button. If you use these buttons in the wild, <a href="mailto:ubuwaits@hellohappy.org">drop me a note</a> and let me know.</p>
@@ -19,6 +19,8 @@
       <div class="button-info">
         <h2>Classic buttons</h2>
         <p>This is the original set of buttons, showing a variety of CSS3 styles in different combinations. Study the code, then adjust to fit the context of where it's used.</p>
+        <p><label><input type="checkbox" id="show_css"/> Check me if you want to display the CSS when pressing a button. Click the popup by clicking in it.</p>
+        <p>This feature works in Firefox, Google Chrome, Opera and Safari.</label></p>
       </div>
 
       <ul class="column">
@@ -89,8 +91,39 @@
       </ul>
     </div>
 
-    <p class="credit">Designed &amp; Maintained by <a href="http://hellohappy.org/">Chad Mazzola</a> with inspiration from across the internet.</p>
+    <p class="credit">Designed &amp; Maintained by <a href="http://hellohappy.org/">Chad Mazzola</a> with inspiration from across the internet.
+    <br/>Script for displaying CSS on button click created by <a href="https://github.com/inkel">Leandro L&oacute;pez (inkel)</a>.</p>
+
+    <div id="css-dialog" title="CSS">
+      <pre style="font-size: 0.8em"><code id="rules" class="prettyprint lang-css"></code></pre>
+    </div>
   </div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="prettify/lang-css.js"></script>
+<script type="text/javascript">
+$(function() {
+  var css = $('#css-dialog').dialog({ autoOpen: false, width: 600, height: 600 });
+  var _ss = document.styleSheets.item(1);
+  $('button').click(function() {
+    if(!document.getElementById('show_css').checked) return;
+
+    var code = '', re = new RegExp('\.' + this.className + '$|\.' + this.className + '[:\[]');
+    for(var i = 0, j = _ss.cssRules.length; i < j; i++) {
+      var rule = _ss.cssRules.item(i);
+      if(re.test(rule.selectorText))
+        code += rule.cssText;
+    }
+
+    $('#rules').html(code.replace(/([{;}])/g, "$1\n"));
+    prettyPrint();
+
+    css.dialog('option', 'title', 'CSS: ' + this.className).dialog('open');
+  });
+});
+</script>
 
 </body>
 </html>

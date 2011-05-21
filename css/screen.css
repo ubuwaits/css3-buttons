@@ -71,6 +71,7 @@ body {
 div.container {
   margin: 40px auto;
   width: 960px;
+  position: relative;
 }
 
 a {
@@ -198,6 +199,19 @@ button.fat-letters {
 
 button.download-itunes {
   margin-top: 62px;
+}
+
+#css {
+  position: fixed;
+  top: 76px;
+  width: 960px;
+  max-height: 200px;
+  margin: auto auto;
+  display: none;
+  padding: 1em;
+  background: #333;
+  overflow: scroll;
+  color: #eee;
 }
 
 /* Clear Floated Elements
