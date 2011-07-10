@@ -2,7 +2,7 @@
 
 This is a collection of buttons that show what is possible using CSS3 and other advanced techniques, while maintaining the simplest possible markup. These buttons look best in Chrome and Safari (especially on OSX). They look almost as good in Firefox, with all other browsers falling back to a less-styled button.
 
-These buttons are now implemented using Sass, using [http://github.com/thoughtbot/bourbon]>(Bourbon). The plain, generated CSS for all the buttons isalso still available in its previous location within the repo.
+These buttons are now implemented using Sass, using [http://github.com/thoughtbot/bourbon](Bourbon). The plain, generated CSS for all the buttons isalso still available in its previous location within the repo.
 
 If you use any of these buttons in the wild, drop me a note and let me know.
 
