@@ -1,4 +1,4 @@
-= CSS3 Buttons
+# CSS3 Buttons
 
 This is a collection of buttons that show what is possible using CSS3 and other advanced techniques, while maintaining the simplest possible markup. These buttons look best in Chrome and Safari (especially on OSX). They look almost as good in Firefox, with all other browsers falling back to a less-styled button.
 
@@ -6,4 +6,4 @@ These buttons are now implemented using Sass, using [http://github.com/thoughtbo
 
 If you use any of these buttons in the wild, drop me a note and let me know.
 
-=== View the buttons here: http://ubuwaits.github.com/css3-buttons
+## View the buttons here: http://ubuwaits.github.com/css3-buttons
