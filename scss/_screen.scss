@@ -1,0 +1,208 @@
+/* This stylesheet contains only what is necessary to display the example
+   buttons. See buttons.css for the relevant CSS.
+******************************************************************************/
+/* Global Reset
+------------------------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Page specific
+------------------------------------------------------------------------------*/
+body {
+  background: #fff;
+  color: #333;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+div.container {
+  margin: 40px auto;
+  width: 960px;
+}
+
+a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  color: #333;
+  font-size: 38px;
+  font-weight: 300;
+  margin: 24px 0 12px 0;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 140%;
+  margin: 0 0 12px 0;
+}
+
+p.credit {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 36px 0 12px 0;
+  padding: 6px 0 0 0;
+}
+
+p.where {
+  margin: 0 0 12px 0;
+}
+
+.button-collection {
+  border-top: 2px solid #ccc;
+  margin: 24px 0 36px 0;
+  padding: 4px 0 12px 0;
+}
+
+.button-info {
+  float: left;
+  margin: 0 40px 0 0;
+  width: 245px;
+
+  h2 {
+    color: #222;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 10px 0 6px 0;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+ul.column {
+  float: left;
+  list-style: none;
+  width: 675px;
+
+  ul.column li {
+    background: #ddd;
+    @include border-radius(5px);
+    float: left;
+    margin: 10px 0 0 10px;
+    display: block;
+    height: 150px;
+    text-align: center;
+    width: 215px;
+  }
+}
+
+button {
+  margin-top: 60px;
+}
+
+button.webkit-badge {
+  margin-top: 32px;
+}
+
+button.webkit-check {
+  margin-top: 30px;
+}
+
+button.webkit-seal {
+  margin-top: 30px;
+}
+
+button.slick-black {
+  margin-top: 56px;
+}
+
+button.cupid-green {
+  margin-top: 62px;
+}
+
+button.cupid-blue {
+  margin-top: 64px;
+}
+
+button.blue-pill {
+  margin-top: 62px;
+}
+
+button.dribbble {
+  margin-top: 60px;
+}
+
+button.thoughtbot {
+  margin-top: 54px;
+}
+
+button.punch {
+  margin-top: 54px;
+}
+
+button.fat-letters {
+  margin-top: 20px;
+}
+
+button.download-itunes {
+  margin-top: 62px;
+}
+
+/* Clear Floated Elements
+------------------------------------------------------------------------------*/
+.column:after,
+.button-collection:after,
+.clearfix:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

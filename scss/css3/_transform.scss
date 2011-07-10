@@ -1,0 +1,8 @@
+@mixin transform($property: none) {
+//  none | <transform-function>
+  -webkit-transform: $property;
+     -moz-transform: $property;
+      -ms-transform: $property;
+       -o-transform: $property;
+          transform: $property;
+}
