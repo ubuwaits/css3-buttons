@@ -1,18 +1,4 @@
 @import "bourbon";
-@import "screen";
-
-/* general styles */
-body {
-  text-rendering: optimizeLegibility;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  border:0;
-}
 
 /* minimal
 *******************************************************************************/
@@ -28,19 +14,19 @@ button.minimal {
   text-align: center;
   text-shadow: 0 1px 0 #fff;
   width: 150px;
-}
 
-button.minimal:hover {
-  background: #d9d9d9;
-  @include box-shadow(inset 0 0 1px 1px #eaeaea);
-  color: #222;
-  cursor: pointer;
-}
+  &:hover {
+    background: #d9d9d9;
+    @include box-shadow(inset 0 0 1px 1px #eaeaea);
+    color: #222;
+    cursor: pointer;
+  }
 
-button.minimal:active {
-  background: #d0d0d0;
-  @include box-shadow(inset 0 0 1px 1px #e3e3e3);
-  color: #000;
+  &:active {
+    background: #d0d0d0;
+    @include box-shadow(inset 0 0 1px 1px #e3e3e3);
+    color: #000;
+  }
 }
 
 /* clean gray
@@ -57,20 +43,20 @@ button.clean-gray {
   text-align: center;
   text-shadow: 0 1px 0 #eee;
   width: 150px;
-}
 
-button.clean-gray:hover {
-  @include linear-gradient(top, #ddd, #bbb);
-  border: 1px solid #bbb;
-  border-bottom: 1px solid #999;
-  cursor: pointer;
-  text-shadow: 0 1px 0 #ddd;
-}
+  &:hover {
+    @include linear-gradient(top, #ddd, #bbb);
+    border: 1px solid #bbb;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #ddd;
+  }
 
-button.clean-gray:active {
-  border: 1px solid #aaa;
-  border-bottom: 1px solid #888;
-  @include box-shadow(inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee);
+  &:active {
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #888;
+    @include box-shadow(inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee);
+  }
 }
 
 /* cupid green (inspired by okcupid.com)
@@ -88,18 +74,18 @@ button.cupid-green {
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
   width: 150px;
-}
 
-button.cupid-green:hover {
-  @include linear-gradient(top, #76b347, #5e9e2e);
-  @include box-shadow(inset 0 1px 0 0 #8dbf67);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #76b347, #5e9e2e);
+    @include box-shadow(inset 0 1px 0 0 #8dbf67);
+    cursor: pointer;
+  }
 
-button.cupid-green:active {
-  border: 1px solid #5b992b;
-  border-bottom: 1px solid #538c27;
-  @include box-shadow(inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee);
+  &:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    @include box-shadow(inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee);
+  }
 }
 
 /* cupid blue (inspired by okcupid.com)
@@ -119,22 +105,22 @@ button.cupid-blue {
   text-align: center;
   text-shadow: 0 1px 1px #fff;
   width: 150px;
-}
 
-button.cupid-blue:hover {
-  @include linear-gradient(top, #ccd9e8, #c1d4e8);
-  border-top: 1px solid #a1afbf;
-  border-left: 1px solid #9caaba;
-  border-bottom: 1px solid #96a3b3;
-  border-right: 1px solid #9caaba;
-  @include box-shadow(inset 0 1px 0 0 #f2f2f2);
-  color: #163659;
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #ccd9e8, #c1d4e8);
+    border-top: 1px solid #a1afbf;
+    border-left: 1px solid #9caaba;
+    border-bottom: 1px solid #96a3b3;
+    border-right: 1px solid #9caaba;
+    @include box-shadow(inset 0 1px 0 0 #f2f2f2);
+    color: #163659;
+    cursor: pointer;
+  }
 
-button.cupid-blue:active {
-  border: 1px solid #8c98a7;
-  @include box-shadow(inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eee);
+  &:active {
+    border: 1px solid #8c98a7;
+    @include box-shadow(inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eee);
+  }
 }
 
 /* blue pill (inspired by iTunes)
@@ -157,21 +143,21 @@ button.blue-pill {
   text-shadow: 0 -1px 1px #64799e;
   text-transform: uppercase;
   width: 150px;
-}
 
-button.blue-pill:hover {
-  @include linear-gradient(top, #9badcc, #687fa6);
-  border-top: 1px solid #6d86ad;
-  border-right: 1px solid #647a9e;
-  border-bottom: 1px solid #546685;
-  border-left: 1px solid #647a9e;
-  @include box-shadow(inset 0 1px 0 0 #a5b9d9);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #9badcc, #687fa6);
+    border-top: 1px solid #6d86ad;
+    border-right: 1px solid #647a9e;
+    border-bottom: 1px solid #546685;
+    border-left: 1px solid #647a9e;
+    @include box-shadow(inset 0 1px 0 0 #a5b9d9);
+    cursor: pointer;
+  }
 
-button.blue-pill:active {
-  border: 1px solid #546685;
-  @include box-shadow(inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee);
+  &:active {
+    border: 1px solid #546685;
+    @include box-shadow(inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eee);
+  }
 }
 
 /* dribbble (inspired by dribbble.com)
@@ -189,15 +175,15 @@ button.dribbble {
   text-align: center;
   text-shadow: 0px -1px 1px #a64767;
   width: 150px;
-}
 
-button.dribbble:hover {
-  @include linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
+    cursor: pointer;
+  }
 
-button.dribbble:active {
-  @include linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
+  &:active {
+    @include linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
+  }
 }
 
 /* slick black
@@ -213,15 +199,15 @@ button.slick-black {
   padding: 12px 0;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8), 0 1px 1px rgba(255, 255, 255, 0.3);
   width: 150px;
-}
 
-button.slick-black:hover {
-  @include linear-gradient(top, rgba(70, 70, 70, 0.9) 0%, rgba(50, 50, 50, 0.9) 50%, rgba(40, 40, 40, 0.9) 50%, rgba(20, 20, 20, 0.9) 100%);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, rgba(70, 70, 70, 0.9) 0%, rgba(50, 50, 50, 0.9) 50%, rgba(40, 40, 40, 0.9) 50%, rgba(20, 20, 20, 0.9) 100%);
+    cursor: pointer;
+  }
 
-button.slick-black:active {
-  @include linear-gradient(top, rgba(30, 30, 30, 0.9) 0%, rgba(20, 20, 20, 0.9) 50%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%);
+  &:active {
+    @include linear-gradient(top, rgba(30, 30, 30, 0.9) 0%, rgba(20, 20, 20, 0.9) 50%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%);
+  }
 }
 
 /* thoughtbot (inspired by thoughtbot.com)
@@ -238,16 +224,16 @@ button.thoughtbot {
   text-align: center;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
-}
 
-button.thoughtbot:hover {
-  @include linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    cursor: pointer;
+  }
 
-button.thoughtbot:active {
-  @include linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
-  @include box-shadow(inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4));
+  &:active {
+    @include linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+    @include box-shadow(inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4));
+  }
 }
 
 /* punch
@@ -269,23 +255,23 @@ button.punch {
   text-shadow: 0px -1px 1px #1e2d4d;
   width: 150px;
   -webkit-background-clip: padding-box;
-}
 
-button.punch:hover {
-  @include box-shadow(inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111);
-  cursor: pointer;
-}
+  &:hover {
+    @include box-shadow(inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111);
+    cursor: pointer;
+  }
 
-button.punch:active {
-  @include box-shadow(inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111);
-  margin-top: 58px;
+  &:active {
+    @include box-shadow(inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111);
+    margin-top: 58px;
+  }
 }
 
 /* blue candy (inspired by Apple iOS buttons)
 *******************************************************************************/
 button.blue-candy {
   @include linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  @includ border-radius(3px);
+  @include border-radius(3px);
   color: #fff;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
   line-height: 1;
@@ -294,22 +280,22 @@ button.blue-candy {
   text-shadow: 0px -1px 1px #2c4d93;
   width: 150px;
   -webkit-background-clip: padding-box;
-}
 
-button.blue-candy:hover {
-  @include linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-  -webkit-background-clip: padding-box;
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
+    -webkit-background-clip: padding-box;
+    cursor: pointer;
+  }
 
-button.blue-candy:active {
-  background: #1a4aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
-              -moz-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
-              -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
-  color: #ddd;
-  -webkit-background-clip: padding-box;
+  &:active {
+    background: #1a4aab;
+    background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+                -moz-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
+    background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
+                -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
+    color: #ddd;
+    -webkit-background-clip: padding-box;
+  }
 }
 
 /* purple candy
@@ -325,22 +311,22 @@ button.purple-candy {
   text-shadow: 0px -1px 1px #473569;
   width: 150px;
   -webkit-background-clip: padding-box;
-}
 
-button.purple-candy:hover {
-  @include linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
-  -webkit-background-clip: padding-box;
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #8d69cf 0%, #6332c7 50%, #551dc4 50%, #561fc4 100%);
+    -webkit-background-clip: padding-box;
+    cursor: pointer;
+  }
 
-button.purple-candy:active {
-  background: #4a1aab;
-  background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
-              -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
-  background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
-              -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
-  color: #ddd;
-  -webkit-background-clip: padding-box;
+  &:active {
+    background: #4a1aab;
+    background: -moz-radial-gradient(50% 31% 0deg,circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)),
+                -moz-linear-gradient(top, #7b5cb5 0%, #572bad 50%, #4a1aab 50%, #4b1bab 100%);
+    background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))),
+                -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(0.5, #572bad), color-stop(0.5, #4a1aab), color-stop(1, #4b1bab));
+    color: #ddd;
+    -webkit-background-clip: padding-box;
+  }
 }
 
 /* shiny blue (inspired by rdio iphone interface)
@@ -358,19 +344,19 @@ button.shiny-blue {
   padding: 7px 0;
   text-shadow: 0 -1px 1px #1a5ad9;
   width: 150px;
-}
 
-button.shiny-blue:hover {
-  @include linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #5d89e8 0%, #2261e0 50%, #044bd9 50%, #0d53de 100%);
+    cursor: pointer;
+  }
 
-button.shiny-blue:active {
-  border-top: 1px solid #1b4db3;
-  border-right: 1px solid #174299;
-  border-bottom: 1px solid #133780;
-  border-left: 1px solid #174299;
-  @include box-shadow(inset 0 0 5px 2px #1a47a0, 0 1px 0 #eee);
+  &:active {
+    border-top: 1px solid #1b4db3;
+    border-right: 1px solid #174299;
+    border-bottom: 1px solid #133780;
+    border-left: 1px solid #174299;
+    @include box-shadow(inset 0 0 5px 2px #1a47a0, 0 1px 0 #eee);
+  }
 }
 
 /* download itunes
@@ -393,27 +379,27 @@ button.download-itunes {
   text-shadow: 0 -1px 1px #3275bc;
   width: 112px;
   -webkit-background-clip: padding-box;
-}
 
-button.download-itunes:hover {
-  @include linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
-  border-top: 1px solid #2a73a6;
-  border-right: 1px solid #165899;
-  border-bottom: 1px solid #07428f;
-  border-left: 1px solid #165899;
-  @include box-shadow(inset 0 1px 0 0 #62b1e9);
-  cursor: pointer;
-  text-shadow: 0 -1px 1px #1d62ab;
-  -webkit-background-clip: padding-box;
-}
+  &:hover {
+    @include linear-gradient(top, #3e9ee5 0%, #206bcb 100%);
+    border-top: 1px solid #2a73a6;
+    border-right: 1px solid #165899;
+    border-bottom: 1px solid #07428f;
+    border-left: 1px solid #165899;
+    @include box-shadow(inset 0 1px 0 0 #62b1e9);
+    cursor: pointer;
+    text-shadow: 0 -1px 1px #1d62ab;
+    -webkit-background-clip: padding-box;
+  }
 
-button.download-itunes:active {
-  background: #3282d3;
-  border: 1px solid #154c8c;
-  border-bottom: 1px solid #0e408e;
-  @include box-shadow(inset 0 0 6px 3px #1657b5, 0 1px 0 0 #fff);
-  text-shadow: 0 -1px 1px #2361a4;
-  -webkit-background-clip: padding-box;
+  &:active {
+    background: #3282d3;
+    border: 1px solid #154c8c;
+    border-bottom: 1px solid #0e408e;
+    @include box-shadow(inset 0 0 6px 3px #1657b5, 0 1px 0 0 #fff);
+    text-shadow: 0 -1px 1px #2361a4;
+    -webkit-background-clip: padding-box;
+  }
 }
 
 button[disabled].download-itunes,
@@ -450,16 +436,15 @@ button.skip {
   text-align: center;
   text-shadow: 0 -1px 1px #000f4d;
   width: 150px;
-}
 
-button.skip:hover {
-  @include linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
-  cursor: pointer;
-}
+  &:hover {
+    @include linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+    cursor: pointer;
+  }
 
-button.skip:active {
-  @include box-shadow(inset 0 0 20px 0 #1d2845, 0 1px 0 #fff);
-  cursor: pointer;
+  &:active {
+    @include box-shadow(inset 0 0 20px 0 #1d2845, 0 1px 0 #fff);
+  }
 }
 
 /* minimal indent (inspired by okcupid iphone interface)
@@ -477,15 +462,15 @@ button.minimal-indent {
   padding: 7px 0;
   text-shadow: 0 1px 1px #fff;
   width: 150px;
-}
 
-button.minimal-indent:hover {
-  @include linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
-  @include box-shadow(inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3);
-}
+  &:hover {
+    @include linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
+    @include box-shadow(inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3);
+  }
 
-button.minimal-indent:active {
-  @include box-shadow(inset 0 0 30px 0 #999, 0 1px 0 0 #fff);
+  &:active {
+    @include box-shadow(inset 0 0 30px 0 #999, 0 1px 0 0 #fff);
+  }
 }
 
 div.indent {
@@ -514,15 +499,15 @@ button.webkit-badge {
   -webkit-mask-image: url("../images/badge.png");
   -webkit-mask-position: left top;
   -webkit-mask-repeat: no-repeat;
-}
 
-button.webkit-badge:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
-  cursor: pointer;
-}
+  &:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #f37873), color-stop(0.5, #db504d), color-stop(0.5, #cb0500), color-stop(1, #a20601));
+    cursor: pointer;
+  }
 
-button.webkit-badge:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+  &:active {
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #d43c28), color-stop(0.5, #ad3224), color-stop(0.5, #9c1500), color-stop(1, #700d00));
+  }
 }
 
 /* webkit seal
@@ -543,15 +528,15 @@ button.webkit-seal {
   -webkit-mask-image: url("../images/seal.png");
   -webkit-mask-position: center center;
   -webkit-mask-repeat: no-repeat;
-}
 
-button.webkit-seal:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
-  cursor: pointer;
-}
+  &:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #8d69cf), color-stop(1, #561fc4));
+    cursor: pointer;
+  }
 
-button.webkit-seal:active {
-  background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
+  &:active {
+    background: -webkit-gradient(radial, 50% 50%, 40, 50% 50%, 0, from(rgba(38, 76, 153, 0.2)), to(rgba(11, 23, 46, 0.2))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #7b5cb5), color-stop(1, #4b1bab));
+  }
 }
 
 /* webkit check
@@ -569,15 +554,15 @@ button.webkit-check {
   -webkit-mask-image: url("../images/check.png");
   -webkit-mask-position: center center;
   -webkit-mask-repeat: no-repeat;
-}
 
-button.webkit-check:hover {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
-  cursor: pointer;
-}
+  &:hover {
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #6989cf), color-stop(1, #1d55c4));
+    cursor: pointer;
+  }
 
-button.webkit-check:active {
-  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
+  &:active {
+    background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(1, #1b4bab));
+  }
 }
 
 /* disabled button styles
@@ -592,4 +577,19 @@ button[disabled]:active {
   color: #aaa;
   cursor: not-allowed;
   text-shadow: none;
+}
+
+@import "screen";
+
+/* general styles */
+body {
+  text-rendering: optimizeLegibility;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border:0;
 }
