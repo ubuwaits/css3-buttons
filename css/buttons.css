@@ -200,8 +200,6 @@ button.cupid-blue {
     box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee; }
 
 /* blue pill (inspired by iTunes)
-   As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
-   http://code.google.com/p/chromium/issues/detail?id=29427
 *******************************************************************************/
 button.blue-pill {
   background-color: #a5b8da;

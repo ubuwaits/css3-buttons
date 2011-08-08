@@ -140,8 +140,6 @@ button.cupid-blue {
 }
 
 /* blue pill (inspired by iTunes)
-   As of 19 Sep 2010 there is a bug in Chrome/Win affecting this button:
-   http://code.google.com/p/chromium/issues/detail?id=29427
 *******************************************************************************/
 @mixin blue-pill {
   @include linear-gradient(top, #a5b8da, #7089b3);
