@@ -1,5 +1,9 @@
 @import "bourbon";
 
+button::-moz-focus-inner {
+  border:0;
+}
+
 /* minimal
 *******************************************************************************/
 @mixin minimal {
@@ -651,15 +655,3 @@ button[disabled]:active {
 
 @import "screen";
 
-/* general styles */
-body {
-  text-rendering: optimizeLegibility;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  border:0;
-}

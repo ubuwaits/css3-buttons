@@ -1,3 +1,6 @@
+button::-moz-focus-inner {
+  border: 0; }
+
 /* minimal
 *******************************************************************************/
 button.minimal {
@@ -1064,13 +1067,3 @@ button.download-itunes {
   visibility: hidden;
   width: 0;
   height: 0; }
-
-/* general styles */
-body {
-  text-rendering: optimizeLegibility; }
-
-button:hover {
-  cursor: pointer; }
-
-button::-moz-focus-inner {
-  border: 0; }
