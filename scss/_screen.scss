@@ -76,9 +76,14 @@ h1 {
   margin: 24px 0 12px 0;
 }
 
+h2 {
+  color: #666;
+  margin: 0 0 24px 0;
+}
+
 p {
   color: #555;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 140%;
   margin: 0 0 12px 0;
@@ -125,8 +130,9 @@ ul.column {
   width: 675px;
 
   li {
-    background: #ddd;
+    background: #eee;
     @include border-radius(5px);
+    @include box-shadow(inset 0 1px 1px 0 #c7c7c7);
     float: left;
     margin: 10px 0 0 10px;
     display: block;

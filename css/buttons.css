@@ -953,9 +953,13 @@ h1 {
   font-weight: 300;
   margin: 24px 0 12px 0; }
 
+h2 {
+  color: #666;
+  margin: 0 0 24px 0; }
+
 p {
   color: #555;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 140%;
   margin: 0 0 12px 0; }
@@ -992,12 +996,17 @@ ul.column {
   list-style: none;
   width: 675px; }
   ul.column li {
-    background: #ddd;
+    background: #eee;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+    -moz-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+    -ms-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+    -o-box-shadow: inset 0 1px 1px 0 #c7c7c7;
+    box-shadow: inset 0 1px 1px 0 #c7c7c7;
     float: left;
     margin: 10px 0 0 10px;
     display: block;
