@@ -254,45 +254,6 @@ button.blue-pill {
     -o-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee; }
 
-/* dribbble (inspired by dribbble.com)
-*******************************************************************************/
-button.dribbble {
-  background-color: #f26895;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f26895), color-stop(50%, #f26895), color-stop(50%, #f15587), color-stop(100%, #f15587));
-  background-image: -webkit-linear-gradient(top, #f26895 0, #f26895 50%, #f15587 50%, #f15587 100%);
-  background-image: -moz-linear-gradient(top, #f26895 0, #f26895 50%, #f15587 50%, #f15587 100%);
-  background-image: -ms-linear-gradient(top, #f26895 0, #f26895 50%, #f15587 50%, #f15587 100%);
-  background-image: -o-linear-gradient(top, #f26895 0, #f26895 50%, #f15587 50%, #f15587 100%);
-  background-image: linear-gradient(top, #f26895 0, #f26895 50%, #f15587 50%, #f15587 100%);
-  border: 0;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  color: #fcfcfc;
-  font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #a64767;
-  width: 150px; }
-  button.dribbble:hover {
-    background-color: #e2558b;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e2558b), color-stop(50%, #e2558b), color-stop(50%, #df3e7b), color-stop(100%, #df3e7b));
-    background-image: -webkit-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-    background-image: -moz-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-    background-image: -ms-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-    background-image: -o-linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-    background-image: linear-gradient(top, #e2558b 0, #e2558b 50%, #df3e7b 50%, #df3e7b 100%);
-    cursor: pointer; }
-  button.dribbble:active {
-    background-color: #c94477;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c94477), color-stop(50%, #c94477), color-stop(50%, #c22b65), color-stop(100%, #c22b65));
-    background-image: -webkit-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
-    background-image: -moz-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
-    background-image: -ms-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
-    background-image: -o-linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%);
-    background-image: linear-gradient(top, #c94477 0, #c94477 50%, #c22b65 50%, #c22b65 100%); }
-
 /* slick black
 *******************************************************************************/
 button.slick-black {
@@ -1007,9 +968,6 @@ button.cupid-blue {
 
 button.blue-pill {
   margin-top: 62px; }
-
-button.dribbble {
-  margin-top: 60px; }
 
 button.thoughtbot {
   margin-top: 54px; }
