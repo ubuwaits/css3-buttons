@@ -1,5 +1,13 @@
 // CSS3 Flexible Box Model and property defaults
 
+// Custom shorthand notation for flexbox
+@mixin box($orient: inline-axis, $pack: start, $align: stretch) {
+  @include display-box;
+  @include box-orient($orient);
+  @include box-pack($pack);
+  @include box-align($align);
+}
+
 @mixin display-box {
   display: -webkit-box;
   display: -moz-box;
