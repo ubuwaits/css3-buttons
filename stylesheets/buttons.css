@@ -347,46 +347,6 @@ button.punch {
     box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     margin-top: 58px; }
 
-/* blue candy (inspired by Apple iOS buttons)
-*******************************************************************************/
-button.blue-candy {
-  background-color: #779be9;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #779be9), color-stop(50%, #376fe0), color-stop(50%, #2260dd), color-stop(100%, #2463de));
-  background-image: -webkit-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  background-image: -moz-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  background-image: -ms-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  background-image: -o-linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  background-image: linear-gradient(top, #779be9 0%, #376fe0 50%, #2260dd 50%, #2463de 100%);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  color: #fff;
-  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
-  padding: 10px 0 12px 0;
-  text-align: center;
-  text-shadow: 0px -1px 1px #2c4d93;
-  width: 150px;
-  -webkit-background-clip: padding-box; }
-  button.blue-candy:hover {
-    background-color: #6989cf;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6989cf), color-stop(50%, #3263c7), color-stop(50%, #1d55c4), color-stop(100%, #1d55c4));
-    background-image: -webkit-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-    background-image: -moz-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-    background-image: -ms-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-    background-image: -o-linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-    background-image: linear-gradient(top, #6989cf 0%, #3263c7 50%, #1d55c4 50%, #1d55c4 100%);
-    -webkit-background-clip: padding-box;
-    cursor: pointer; }
-  button.blue-candy:active {
-    background: #1a4aab;
-    background: -moz-radial-gradient(50% 31% 0deg, circle cover, rgba(38, 76, 153, 0.4), rgba(11, 23, 46, 0.4)), -moz-linear-gradient(top, #5c78b5 0%, #2b57ad 50%, #1a4aab 50%, #1b4bab 100%);
-    background: -webkit-gradient(radial, 50% 20%, 75, 50% 50%, 0, from(rgba(38, 76, 153, 0.4)), to(rgba(11, 23, 46, 0.4))), -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #5c78b5), color-stop(0.5, #2b57ad), color-stop(0.5, #1a4aab), color-stop(1, #1b4bab));
-    color: #ddd;
-    -webkit-background-clip: padding-box; }
-
 /* purple candy
 *******************************************************************************/
 button.purple-candy {
