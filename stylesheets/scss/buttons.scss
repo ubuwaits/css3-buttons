@@ -40,7 +40,7 @@ button.minimal {
 /* clean gray
 *******************************************************************************/
 @mixin clean-gray {
-  @include linear-gradient(top, #eee, #ccc);
+  @include background(linear-gradient(top, #eee, #ccc));
   border: 1px solid #ccc;
   border-bottom: 1px solid #bbb;
   @include border-radius(3px);
