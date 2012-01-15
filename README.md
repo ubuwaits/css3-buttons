@@ -8,4 +8,4 @@ If you'd like to modify the repo locally, you'll need to watch the Sass director
 
     sass --watch stylesheets/scss:stylesheets -r ./stylesheets/scss/bourbon/lib/bourbon.rb
 
-## View the buttons here: http://ubuwaits.github.com/css3-buttons
+## View the buttons here: http://hellohappy.org/css3-buttons
