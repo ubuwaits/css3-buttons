@@ -4,8 +4,8 @@ This is a collection of buttons that show what is possible using CSS3 and other 
 
 These buttons are now implemented using Sass, with help from [Bourbon](http://github.com/thoughtbot/bourbon). The generated CSS for all the buttons is also available.
 
-If you'd like to modify the repo locally, you'll need to watch the Sass directory with the follow command:
+If you'd like to modify the repo locally, you can start the Jekyll server and watch the Sass files with:
 
-    sass --watch stylesheets/scss:stylesheets -r ./stylesheets/scss/bourbon/lib/bourbon.rb
+    rake server
 
 ## View the buttons here: http://hellohappy.org/css3-buttons
