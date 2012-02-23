@@ -8,4 +8,4 @@ If you'd like to modify the repo locally, you can start the Jekyll server and wa
 
     rake server
 
-## View the buttons here: http://hellohappy.org/css3-buttons
+### View the buttons here: http://hellohappy.org/css3-buttons
