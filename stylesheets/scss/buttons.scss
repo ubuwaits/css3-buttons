@@ -431,6 +431,7 @@ button.skip {
   &:hover {
     @include linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
     @include box-shadow(inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3);
+    cursor: pointer;
   }
 
   &:active {
@@ -439,7 +440,11 @@ button.skip {
 }
 
 div.indent {
-  @include linear-gradient(top, #e2e2e2, #fafafa);
+  @include linear-gradient(#e2e2e2, #fafafa);
+  border-bottom: 1px solid #e7e7e7;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-top: 1px solid #dfdfdf;
   @include border-radius(8px);
   margin: 50px auto 0;
   padding: 10px 0;
