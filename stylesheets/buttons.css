@@ -13,8 +13,6 @@ button.minimal {
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
   -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
-  -ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
-  -o-box-shadow: inset 0 0 1px 1px #f6f6f6;
   box-shadow: inset 0 0 1px 1px #f6f6f6;
   color: #333;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
@@ -27,8 +25,6 @@ button.minimal {
     background: #d9d9d9;
     -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
     -moz-box-shadow: inset 0 0 1px 1px #eaeaea;
-    -ms-box-shadow: inset 0 0 1px 1px #eaeaea;
-    -o-box-shadow: inset 0 0 1px 1px #eaeaea;
     box-shadow: inset 0 0 1px 1px #eaeaea;
     color: #222;
     cursor: pointer; }
@@ -36,8 +32,6 @@ button.minimal {
     background: #d0d0d0;
     -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
     -moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
-    -ms-box-shadow: inset 0 0 1px 1px #e3e3e3;
-    -o-box-shadow: inset 0 0 1px 1px #e3e3e3;
     box-shadow: inset 0 0 1px 1px #e3e3e3;
     color: #000; }
 
@@ -82,8 +76,6 @@ button.clean-gray {
     border-bottom: 1px solid #888;
     -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
     -moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
-    -o-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee; }
 
 /* cupid green (inspired by okcupid.com)
@@ -105,8 +97,6 @@ button.cupid-green {
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
   -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
-  -ms-box-shadow: inset 0 1px 0 0 #96ca6d;
-  -o-box-shadow: inset 0 1px 0 0 #96ca6d;
   box-shadow: inset 0 1px 0 0 #96ca6d;
   color: #fff;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -125,8 +115,6 @@ button.cupid-green {
     background-image: linear-gradient(top, #76b347, #5e9e2e);
     -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
     -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
-    -ms-box-shadow: inset 0 1px 0 0 #8dbf67;
-    -o-box-shadow: inset 0 1px 0 0 #8dbf67;
     box-shadow: inset 0 1px 0 0 #8dbf67;
     cursor: pointer; }
   button.cupid-green:active {
@@ -134,8 +122,6 @@ button.cupid-green {
     border-bottom: 1px solid #538c27;
     -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
-    -o-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
 
 /* cupid blue (inspired by okcupid.com)
@@ -159,8 +145,6 @@ button.cupid-blue {
   border-radius: 12px;
   -webkit-box-shadow: inset 0 1px 0 0 white;
   -moz-box-shadow: inset 0 1px 0 0 white;
-  -ms-box-shadow: inset 0 1px 0 0 white;
-  -o-box-shadow: inset 0 1px 0 0 white;
   box-shadow: inset 0 1px 0 0 white;
   color: #1a3e66;
   font: normal 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -183,8 +167,6 @@ button.cupid-blue {
     border-right: 1px solid #9caaba;
     -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2;
     -moz-box-shadow: inset 0 1px 0 0 #f2f2f2;
-    -ms-box-shadow: inset 0 1px 0 0 #f2f2f2;
-    -o-box-shadow: inset 0 1px 0 0 #f2f2f2;
     box-shadow: inset 0 1px 0 0 #f2f2f2;
     color: #163659;
     cursor: pointer; }
@@ -192,8 +174,6 @@ button.cupid-blue {
     border: 1px solid #8c98a7;
     -webkit-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
     -moz-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
-    -o-box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee;
     box-shadow: inset 0 0 4px 2px #abbccf, 0 0 1px 0 #eeeeee; }
 
 /* blue pill (inspired by iTunes)
@@ -217,8 +197,6 @@ button.blue-pill {
   border-radius: 18px;
   -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
   -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
-  -ms-box-shadow: inset 0 1px 0 0 #aec3e5;
-  -o-box-shadow: inset 0 1px 0 0 #aec3e5;
   box-shadow: inset 0 1px 0 0 #aec3e5;
   color: #fff;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -242,16 +220,12 @@ button.blue-pill {
     border-left: 1px solid #647a9e;
     -webkit-box-shadow: inset 0 1px 0 0 #a5b9d9;
     -moz-box-shadow: inset 0 1px 0 0 #a5b9d9;
-    -ms-box-shadow: inset 0 1px 0 0 #a5b9d9;
-    -o-box-shadow: inset 0 1px 0 0 #a5b9d9;
     box-shadow: inset 0 1px 0 0 #a5b9d9;
     cursor: pointer; }
   button.blue-pill:active {
     border: 1px solid #546685;
     -webkit-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
     -moz-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
-    -o-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee; }
 
 /* thoughtbot (inspired by thoughtbot.com)
@@ -272,8 +246,6 @@ button.thoughtbot {
   border-radius: 5px;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
-  -ms-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
-  -o-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   color: #fff;
   font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
@@ -301,8 +273,6 @@ button.thoughtbot {
     background-image: linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
     -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
     -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
-    -ms-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
-    -o-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
     box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4); }
 
 /* punch
@@ -320,8 +290,6 @@ button.punch {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  -ms-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  -o-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   color: #fff;
   font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
@@ -335,15 +303,11 @@ button.punch {
   button.punch:hover {
     -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
     -moz-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    -ms-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    -o-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
     box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
     cursor: pointer; }
   button.punch:active {
     -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    -ms-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    -o-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     margin-top: 58px; }
 
@@ -408,8 +372,6 @@ button.shiny-blue {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   -moz-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
-  -ms-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
-  -o-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   color: #fff;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
@@ -432,8 +394,6 @@ button.shiny-blue {
     border-left: 1px solid #174299;
     -webkit-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
     -moz-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    -o-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
     box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee; }
 
 /* download itunes
@@ -459,8 +419,6 @@ button.download-itunes {
   border-radius: 16px;
   -webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   -moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
-  -ms-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
-  -o-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   color: #fff;
   font: normal 11px "lucida grande", sans-serif;
@@ -484,8 +442,6 @@ button.download-itunes {
     border-left: 1px solid #165899;
     -webkit-box-shadow: inset 0 1px 0 0 #62b1e9;
     -moz-box-shadow: inset 0 1px 0 0 #62b1e9;
-    -ms-box-shadow: inset 0 1px 0 0 #62b1e9;
-    -o-box-shadow: inset 0 1px 0 0 #62b1e9;
     box-shadow: inset 0 1px 0 0 #62b1e9;
     cursor: pointer;
     text-shadow: 0 -1px 1px #1d62ab;
@@ -496,8 +452,6 @@ button.download-itunes {
     border-bottom: 1px solid #0e408e;
     -webkit-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 white;
     -moz-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 white;
-    -ms-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 white;
-    -o-box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 white;
     box-shadow: inset 0 0 6px 3px #1657b5, 0 1px 0 0 white;
     text-shadow: 0 -1px 1px #2361a4;
     -webkit-background-clip: padding-box; }
@@ -518,8 +472,6 @@ button[disabled].download-itunes:active {
   border-left: 1px solid #cecece;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  -o-box-shadow: none;
   box-shadow: none;
   color: #8f8f8f;
   cursor: not-allowed;
@@ -548,8 +500,6 @@ button.skip {
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
   -moz-box-shadow: inset 0 1px 0 0 #b1b9cb;
-  -ms-box-shadow: inset 0 1px 0 0 #b1b9cb;
-  -o-box-shadow: inset 0 1px 0 0 #b1b9cb;
   box-shadow: inset 0 1px 0 0 #b1b9cb;
   color: #fff;
   font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
@@ -570,8 +520,6 @@ button.skip {
   button.skip:active {
     -webkit-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white;
     -moz-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white;
-    -ms-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white;
-    -o-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white;
     box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white; }
 
 /* minimal indent (inspired by okcupid iphone interface)
@@ -611,8 +559,6 @@ button.minimal-indent {
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   -moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
-  -ms-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
-  -o-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   color: #666;
   font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
@@ -630,14 +576,10 @@ button.minimal-indent {
     background-image: linear-gradient(top, #e5e5e5 0%, #d1d1d1 50%, #c4c4c4 50%, #b8b8b8 100%);
     -webkit-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
     -moz-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
-    -ms-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
-    -o-box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3;
     box-shadow: inset 0 1px 0 0 #f2f2f2, 0 1px 0 0 #c9c9c9, 0 -1px 2px 1px #e3e3e3; }
   button.minimal-indent:active {
     -webkit-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white;
     -moz-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white;
-    -ms-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white;
-    -o-box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white;
     box-shadow: inset 0 0 30px 0 #999999, 0 1px 0 0 white; }
 
 /* webkit badge
@@ -719,8 +661,6 @@ button[disabled]:active {
   border: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  -o-box-shadow: none;
   box-shadow: none;
   color: #aaa;
   cursor: not-allowed;
@@ -868,8 +808,6 @@ ul.column {
     border-radius: 5px;
     -webkit-box-shadow: inset 0 1px 1px 0 #c7c7c7;
     -moz-box-shadow: inset 0 1px 1px 0 #c7c7c7;
-    -ms-box-shadow: inset 0 1px 1px 0 #c7c7c7;
-    -o-box-shadow: inset 0 1px 1px 0 #c7c7c7;
     box-shadow: inset 0 1px 1px 0 #c7c7c7;
     float: left;
     margin: 10px 0 0 10px;
