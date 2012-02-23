@@ -63,29 +63,69 @@ div.container {
   width: 960px;
 }
 
+h1 {
+  color: #333;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 24px 0 12px 0;
+}
+
+div.project-info {
+  @extend .clearfix;
+
+  div.description {
+    float: left;
+    width: 490px;
+
+  }
+
+  div.info {
+    float: left;
+    margin: 0 0 0 30px;
+    width: 340px;
+
+    ul {
+      position: relative;
+      top: 1px;
+
+      li {
+        color: #444;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 18px;
+        text-transform: uppercase;
+
+        a {
+          &:hover {
+            border-bottom: 1px solid #444;
+          }
+        }
+
+        &:before {
+          content: "\00d7";
+          font-size: 15px;
+          font-weight: 700;
+          left: -2px;
+          position: relative;
+          top: 0px;
+        }
+
+      }
+    }
+  }
+}
+
 a {
   color: #333;
   font-weight: bold;
   text-decoration: none;
 }
 
-h1 {
-  color: #333;
-  font-size: 38px;
-  font-weight: 300;
-  margin: 24px 0 12px 0;
-}
-
-h2 {
-  color: #666;
-  margin: 0 0 24px 0;
-}
-
 p {
-  color: #555;
+  color: #444;
   font-size: 14px;
   font-weight: normal;
-  line-height: 140%;
+  line-height: 21px;
   margin: 0 0 12px 0;
 }
 
@@ -94,7 +134,8 @@ p.credit {
   font-size: 14px;
   line-height: 140%;
   margin: 36px 0 12px 0;
-  padding: 6px 0 0 0;
+  padding: 8px 0 0 0;
+  text-align: center;
 }
 
 p.where {
@@ -117,10 +158,6 @@ p.where {
     font-size: 22px;
     font-weight: normal;
     margin: 10px 0 6px 0;
-  }
-
-  p {
-    font-size: 14px;
   }
 }
 

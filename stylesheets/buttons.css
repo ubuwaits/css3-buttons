@@ -788,26 +788,48 @@ div.container {
   margin: 40px auto;
   width: 960px; }
 
+h1 {
+  color: #333;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 24px 0 12px 0; }
+
+div.project-info div.description {
+  float: left;
+  width: 490px; }
+div.project-info div.info {
+  float: left;
+  margin: 0 0 0 30px;
+  width: 340px; }
+  div.project-info div.info ul {
+    position: relative;
+    top: 1px; }
+    div.project-info div.info ul li {
+      color: #444;
+      font-size: 11px;
+      font-weight: normal;
+      line-height: 18px;
+      text-transform: uppercase; }
+      div.project-info div.info ul li a:hover {
+        border-bottom: 1px solid #444; }
+      div.project-info div.info ul li:before {
+        content: "\00d7";
+        font-size: 15px;
+        font-weight: 700;
+        left: -2px;
+        position: relative;
+        top: 0px; }
+
 a {
   color: #333;
   font-weight: bold;
   text-decoration: none; }
 
-h1 {
-  color: #333;
-  font-size: 38px;
-  font-weight: 300;
-  margin: 24px 0 12px 0; }
-
-h2 {
-  color: #666;
-  margin: 0 0 24px 0; }
-
 p {
-  color: #555;
+  color: #444;
   font-size: 14px;
   font-weight: normal;
-  line-height: 140%;
+  line-height: 21px;
   margin: 0 0 12px 0; }
 
 p.credit {
@@ -815,7 +837,8 @@ p.credit {
   font-size: 14px;
   line-height: 140%;
   margin: 36px 0 12px 0;
-  padding: 6px 0 0 0; }
+  padding: 8px 0 0 0;
+  text-align: center; }
 
 p.where {
   margin: 0 0 12px 0; }
@@ -834,8 +857,6 @@ p.where {
     font-size: 22px;
     font-weight: normal;
     margin: 10px 0 6px 0; }
-  .button-info p {
-    font-size: 14px; }
 
 ul.column {
   float: left;
@@ -897,7 +918,8 @@ button.download-itunes {
 ------------------------------------------------------------------------------*/
 .column:after,
 .button-collection:after,
-.clearfix:after {
+.clearfix:after,
+div.project-info:after {
   clear: both;
   content: ' ';
   display: block;
