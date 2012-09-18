@@ -9,7 +9,7 @@ button::-moz-focus-inner {
 @mixin minimal {
   background: #e3e3e3;
   border: 1px solid #bbb;
-  @include border-radius (3px);
+  border-radius: 3px;
   @include box-shadow(inset 0 0 1px 1px #f6f6f6);
   color: #333;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
@@ -43,7 +43,7 @@ button.minimal {
   @include linear-gradient(top, #eee, #ccc);
   border: 1px solid #ccc;
   border-bottom: 1px solid #bbb;
-  @include border-radius(3px);
+  border-radius: 3px;
   color: #333;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   line-height: 1;
@@ -77,7 +77,7 @@ button.clean-gray {
   @include linear-gradient(top, #7fbf4d, #63a62f);
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
-  @include border-radius(3px);
+  border-radius: 3px;
   @include box-shadow(inset 0 1px 0 0 #96ca6d);
   color: #fff;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -112,7 +112,7 @@ button.cupid-green {
   border-left: 1px solid #a7b6c7;
   border-bottom: 1px solid #a1afbf;
   border-right: 1px solid #a7b6c7;
-  @include border-radius(12px);
+  border-radius: 12px;
   @include box-shadow(inset 0 1px 0 0 #fff);
   color: #1a3e66;
   font: normal 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -151,7 +151,7 @@ button.cupid-blue {
   border-right: 1px solid #6c84ab;
   border-bottom: 1px solid #5c6f91;
   border-left: 1px solid #6c84ab;
-  @include border-radius(18px);
+  border-radius: 18px;
   @include box-shadow(inset 0 1px 0 0 #aec3e5);
   color: #fff;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -187,7 +187,7 @@ button.blue-pill {
 @mixin thoughtbot {
   @include linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   border: 1px solid #951100;
-  @include border-radius(5px);
+  border-radius: 5px;
   @include box-shadow(inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333);
   color: #fff;
   font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
@@ -220,7 +220,7 @@ button.thoughtbot {
   border-right: 1px solid #1f2d4d;
   border-bottom: 1px solid #151e33;
   border-left: 1px solid #1f2d4d;
-  @include border-radius(4px);
+  border-radius: 4px;
   @include box-shadow(inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111);
   color: #fff;
   font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
@@ -251,7 +251,7 @@ button.punch {
 *******************************************************************************/
 @mixin purple-candy {
   @include linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-  @include border-radius(3px);
+  border-radius: 3px;
   color: #fff;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
   line-height: 1;
@@ -290,7 +290,7 @@ button.purple-candy {
   border-right: 1px solid #1b4db3;
   border-bottom: 1px solid #174299;
   border-left: 1px solid #1b4db3;
-  @include border-radius(4px);
+  border-radius: 4px;
   @include box-shadow(inset 0 0 2px 0 rgba(57, 140, 255, 0.8));
   color: #fff;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
@@ -326,7 +326,7 @@ button.shiny-blue {
   border-right: 1px solid #2e69a3;
   border-bottom: 1px solid #20559a;
   border-left: 1px solid #2e69a3;
-  @include border-radius(16px);
+  border-radius: 16px;
   @include box-shadow(inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3);
   color: #fff;
   font: normal 11px "lucida grande", sans-serif;
@@ -388,7 +388,7 @@ button.download-itunes::-moz-focus-inner {
   @include linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
   border: 1px solid #172d6e;
   border-bottom: 1px solid #0e1d45;
-  @include border-radius(5px);
+  border-radius: 5px;
   @include box-shadow(inset 0 1px 0 0 #b1b9cb);
   color: #fff;
   font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
@@ -419,7 +419,7 @@ button.skip {
   border-right: 1px solid #dfdfdf;
   border-bottom: 1px solid #b4b4b4;
   border-right: 1px solid #dfdfdf;
-  @include border-radius(5px);
+  border-radius: 5px;
   @include box-shadow(inset 0 1px 0 0 #fff, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef);
   color: #666;
   font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
@@ -445,7 +445,7 @@ div.indent {
   border-left: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
   border-top: 1px solid #dfdfdf;
-  @include border-radius(8px);
+  border-radius: 8px;
   margin: 50px auto 0;
   padding: 10px 0;
   width: 170px;

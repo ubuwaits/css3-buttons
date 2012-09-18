@@ -6,8 +6,6 @@ button::-moz-focus-inner {
 button.minimal {
   background: #e3e3e3;
   border: 1px solid #bbb;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
   -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
@@ -45,8 +43,6 @@ button.clean-gray {
   background-image: linear-gradient(top, #eeeeee, #cccccc);
   border: 1px solid #ccc;
   border-bottom: 1px solid #bbb;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   color: #333;
   font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -86,8 +82,6 @@ button.cupid-green {
   background-image: linear-gradient(top, #7fbf4d, #63a62f);
   border: 1px solid #63a62f;
   border-bottom: 1px solid #5b992b;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
   -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
@@ -132,8 +126,6 @@ button.cupid-blue {
   border-left: 1px solid #a7b6c7;
   border-bottom: 1px solid #a1afbf;
   border-right: 1px solid #a7b6c7;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
   border-radius: 12px;
   -webkit-box-shadow: inset 0 1px 0 0 white;
   -moz-box-shadow: inset 0 1px 0 0 white;
@@ -182,8 +174,6 @@ button.blue-pill {
   border-right: 1px solid #6c84ab;
   border-bottom: 1px solid #5c6f91;
   border-left: 1px solid #6c84ab;
-  -webkit-border-radius: 18px;
-  -moz-border-radius: 18px;
   border-radius: 18px;
   -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
   -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
@@ -229,8 +219,6 @@ button.thoughtbot {
   background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   border: 1px solid #951100;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
@@ -271,8 +259,6 @@ button.punch {
   border-right: 1px solid #1f2d4d;
   border-bottom: 1px solid #151e33;
   border-left: 1px solid #1f2d4d;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
@@ -307,8 +293,6 @@ button.purple-candy {
   background-image: -ms-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   background-image: -o-linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   background-image: linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
   color: #fff;
   font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
@@ -349,8 +333,6 @@ button.shiny-blue {
   border-right: 1px solid #1b4db3;
   border-bottom: 1px solid #174299;
   border-left: 1px solid #1b4db3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   -moz-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
@@ -394,8 +376,6 @@ button.download-itunes {
   border-right: 1px solid #2e69a3;
   border-bottom: 1px solid #20559a;
   border-left: 1px solid #2e69a3;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
   border-radius: 16px;
   -webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   -moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
@@ -473,8 +453,6 @@ button.skip {
   background-image: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
   border: 1px solid #172d6e;
   border-bottom: 1px solid #0e1d45;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
   -moz-box-shadow: inset 0 1px 0 0 #b1b9cb;
@@ -514,8 +492,6 @@ div.indent {
   border-left: 1px solid #eaeaea;
   border-right: 1px solid #eaeaea;
   border-top: 1px solid #dfdfdf;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
   border-radius: 8px;
   margin: 50px auto 0;
   padding: 10px 0;
@@ -532,8 +508,6 @@ button.minimal-indent {
   border-right: 1px solid #dfdfdf;
   border-bottom: 1px solid #b4b4b4;
   border-right: 1px solid #dfdfdf;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   -moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
