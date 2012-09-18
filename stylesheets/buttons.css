@@ -11,8 +11,7 @@ button.minimal {
   -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
   box-shadow: inset 0 0 1px 1px #f6f6f6;
   color: #333;
-  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 8px 0 9px;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
@@ -45,8 +44,7 @@ button.clean-gray {
   border-bottom: 1px solid #bbb;
   border-radius: 3px;
   color: #333;
-  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  line-height: 1;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   padding: 8px 0;
   text-align: center;
   text-shadow: 0 1px 0 #eee;
@@ -87,8 +85,7 @@ button.cupid-green {
   -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
   box-shadow: inset 0 1px 0 0 #96ca6d;
   color: #fff;
-  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  line-height: 1;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   padding: 7px 0 8px 0;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
@@ -131,8 +128,7 @@ button.cupid-blue {
   -moz-box-shadow: inset 0 1px 0 0 white;
   box-shadow: inset 0 1px 0 0 white;
   color: #1a3e66;
-  font: normal 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  line-height: 1;
+  font: normal 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   padding: 6px 0 7px 0;
   text-align: center;
   text-shadow: 0 1px 1px #fff;
@@ -179,8 +175,7 @@ button.blue-pill {
   -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
   box-shadow: inset 0 1px 0 0 #aec3e5;
   color: #fff;
-  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  line-height: 1;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   padding: 8px 0;
   text-align: center;
   text-shadow: 0 -1px 1px #64799e;
@@ -224,8 +219,7 @@ button.thoughtbot {
   -moz-box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
   color: #fff;
-  font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
+  font: bold 20px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 12px 0 14px 0;
   text-align: center;
   text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
@@ -264,8 +258,7 @@ button.punch {
   -moz-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
   color: #fff;
-  font: bold 20px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
+  font: bold 20px/1 "helvetica neue", helvetica, arial, sans-serif;
   margin-bottom: 10px;
   padding: 10px 0 12px 0;
   text-align: center;
@@ -295,8 +288,7 @@ button.purple-candy {
   background-image: linear-gradient(top, #9e76e8 0%, #7038e0 50%, #6021de 50%, #6224de 100%);
   border-radius: 3px;
   color: #fff;
-  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
-  line-height: 1;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 10px 0 12px 0;
   text-align: center;
   text-shadow: 0px -1px 1px #473569;
@@ -338,7 +330,7 @@ button.shiny-blue {
   -moz-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   color: #fff;
-  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 7px 0;
   text-shadow: 0 -1px 1px #1a5ad9;
   width: 150px; }
@@ -381,8 +373,7 @@ button.download-itunes {
   -moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;
   color: #fff;
-  font: normal 11px "lucida grande", sans-serif;
-  line-height: 1;
+  font: normal 11px/1 "lucida grande", sans-serif;
   padding: 3px 5px;
   text-align: center;
   text-shadow: 0 -1px 1px #3275bc;
@@ -458,7 +449,7 @@ button.skip {
   -moz-box-shadow: inset 0 1px 0 0 #b1b9cb;
   box-shadow: inset 0 1px 0 0 #b1b9cb;
   color: #fff;
-  font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
+  font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 7px 0 8px 0;
   text-decoration: none;
   text-align: center;
@@ -513,7 +504,7 @@ button.minimal-indent {
   -moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d5d5d5, 0 -1px 2px 1px #efefef;
   color: #666;
-  font: bold 16px "helvetica neue", helvetica, arial, sans-serif;
+  font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
   margin: 0;
   padding: 7px 0;
   text-shadow: 0 1px 1px #fff;
@@ -540,12 +531,8 @@ button.minimal-indent {
 button.webkit-badge {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #ee432e), color-stop(0.5, #c63929), color-stop(0.5, #b51700), color-stop(1, #891100));
   color: #fff;
-  font-family: "hoefler text", georgia, serif;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: lighter;
+  font: lighter italic 30px/1 "hoefler text", georgia, serif;
   height: 88px;
-  line-height: 1;
   padding: 0;
   text-align: center;
   text-shadow: 0px -1px 1px #3d0700;
@@ -566,10 +553,7 @@ button.webkit-seal {
   color: #fff;
   height: 90px;
   color: #fff;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1;
+  font: bold 13px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 0;
   text-align: center;
   text-shadow: 0px -1px 1px #473569;
@@ -589,7 +573,6 @@ button.webkit-check {
   background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #779be9), color-stop(1, #2463de));
   color: #fff;
   height: 88px;
-  line-height: 1;
   padding: 0;
   text-align: center;
   text-indent: -9999px;
