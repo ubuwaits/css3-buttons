@@ -7,10 +7,12 @@
 @import "functions/radial-gradient";
 @import "functions/render-gradients";
 @import "functions/tint-shade";
+@import "functions/transition-property-name";
 
 // CSS3 Mixins
 @import "css3/animation";
 @import "css3/appearance";
+@import "css3/background";
 @import "css3/background-image";
 @import "css3/background-size";
 @import "css3/border-image";
@@ -21,6 +23,7 @@
 @import "css3/flex-box";
 @import "css3/inline-block";
 @import "css3/linear-gradient";
+@import "css3/prefixer";
 @import "css3/radial-gradient";
 @import "css3/transform";
 @import "css3/transition";
@@ -29,7 +32,9 @@
 // Addons & other mixins
 @import "addons/button";
 @import "addons/clearfix";
+@import "addons/font-face";
 @import "addons/font-family";
+@import "addons/hide-text";
 @import "addons/html5-input-types";
 @import "addons/position";
 @import "addons/timing-functions";
