@@ -2,7 +2,7 @@
 ******************************************************************************/
 /* Global Reset
 ------------------------------------------------------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -27,7 +27,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -106,7 +106,7 @@ div.project-info {
           font-weight: 700;
           left: -2px;
           position: relative;
-          top: 0px;
+          top: 0;
         }
       }
     }

@@ -183,12 +183,12 @@ button.blue-pill {
   @include linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
   border: 1px solid #951100;
   border-radius: 5px;
-  @include box-shadow(inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333);
+  @include box-shadow(inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333);
   color: #fff;
   font: bold 20px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 12px 0 14px 0;
   text-align: center;
-  text-shadow: 0px -1px 1px rgba(0, 0, 0, .8);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .8);
   width: 150px;
 
   &:hover {
@@ -198,7 +198,7 @@ button.blue-pill {
 
   &:active {
     @include linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
-    @include box-shadow(inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4));
+    @include box-shadow(inset 0 0 0 1px rgba(255, 115, 100, 0.4));
   }
 }
 
@@ -215,18 +215,18 @@ button.thoughtbot {
   border-bottom: 1px solid #151e33;
   border-left: 1px solid #1f2d4d;
   border-radius: 4px;
-  @include box-shadow(inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111);
+  @include box-shadow(inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111);
   color: #fff;
   font: bold 20px/1 "helvetica neue", helvetica, arial, sans-serif;
   margin-bottom: 10px;
   padding: 10px 0 12px 0;
   text-align: center;
-  text-shadow: 0px -1px 1px #1e2d4d;
+  text-shadow: 0 -1px 1px #1e2d4d;
   width: 150px;
   -webkit-background-clip: padding-box;
 
   &:hover {
-    @include box-shadow(inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111);
+    @include box-shadow(inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111);
     cursor: pointer;
   }
 
@@ -249,7 +249,7 @@ button.punch {
   font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 10px 0 12px 0;
   text-align: center;
-  text-shadow: 0px -1px 1px #473569;
+  text-shadow: 0 -1px 1px #473569;
   width: 150px;
   -webkit-background-clip: padding-box;
 
@@ -455,7 +455,7 @@ button.minimal-indent {
   height: 88px;
   padding: 0;
   text-align: center;
-  text-shadow: 0px -1px 1px #3d0700;
+  text-shadow: 0 -1px 1px #3d0700;
   width: 150px;
   -webkit-mask-image: url("../images/badge.png");
   -webkit-mask-position: left top;
@@ -485,7 +485,7 @@ button.webkit-badge {
   font: bold 13px/1 "helvetica neue", helvetica, arial, sans-serif;
   padding: 0;
   text-align: center;
-  text-shadow: 0px -1px 1px #473569;
+  text-shadow: 0 -1px 1px #473569;
   width: 150px;
   -webkit-mask-image: url("../images/seal.png");
   -webkit-mask-position: center center;
@@ -514,7 +514,7 @@ button.webkit-seal {
   padding: 0;
   text-align: center;
   text-indent: -9999px;
-  text-shadow: 0px -1px 1px #3d0700;
+  text-shadow: 0 -1px 1px #3d0700;
   width: 150px;
   -webkit-mask-image: url("../images/check.png");
   -webkit-mask-position: center center;
