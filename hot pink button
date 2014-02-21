@@ -1,0 +1,10 @@
+a.button.hotpink {
+    background: #ff00ff;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff00ff), to(#ff00ff));
+    background: -moz-linear-gradient(#ff00ff, #ff00ff);
+    background: linear-gradient(#f997b0, #ff00ff);
+    border: solid 1px #ff00ff;
+    border-bottom: solid 3px #ff00ff;
+    box-shadow: inset 0 0 0 1px #ff00ff;
+    color: #ff00ff;
+    text-shadow: 0 1px 0 #ff00ff; }
