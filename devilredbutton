@@ -1,0 +1,10 @@
+a.button.pink {
+    background: #580000;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#580000), to(#900000));
+    background: -moz-linear-gradient(#580000, #580000);
+    background: linear-gradient(#480000, #580000);
+    border: solid 1px #580000;
+    border-bottom: solid 3px #580000;
+    box-shadow: inset 0 0 0 4px #580000;
+    color: #580000;
+    text-shadow: 0 4px 0 #580000; }
